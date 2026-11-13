@@ -1,0 +1,18 @@
+{
+  "strategy": "Strategy D (Parent-Child Retriever)",
+  "num_parents": 53,
+  "num_children": 237,
+  "child_metrics": {
+    "dev_hit_1": 46.666666666666664,
+    "dev_hit_3": 53.333333333333336,
+    "test_hit_1": 60.0,
+    "test_hit_3": 80.0
+  },
+  "parent_metrics": {
+    "dev_hit_1": 60.0,
+    "dev_hit_3": 60.0,
+    "test_hit_1": 60.0,
+    "test_hit_3": 80.0
+  },
+  "total_time_seconds": 27.42
+}

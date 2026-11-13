@@ -155,3 +155,43 @@ Trong quá trình thực nghiệm, tác giả đã tiến hành một nghiên c�
   - Đối với các tài liệu hành chính công có cấu trúc điều khoản rõ ràng như văn bản quy phạm pháp luật Hà Nội 2026, **Heuristic Legal Parsing (pypdf + regex unwrap)** là giải pháp tối ưu vượt trội về chi phí, tốc độ và tính bảo mật/tái lập.
   - Trong các hệ thống RAG quy mô sản xuất (Production), kiến trúc tối ưu nhất là **Hybrid Document Ingestion Router**: Phân luồng các trang văn bản chữ thuần túy (Trang 1–16) qua Heuristic Legal Chunking siêu tốc, và chỉ định tuyến các trang có bảng biểu/biểu mẫu phi cấu trúc nặng (Trang 17–40) đến các endpoint VLM như Claude Haiku 5.5.
 
+---
+
+### 6. Nghiên cứu Thực nghiệm Nâng cao: Khảo sát Đối chứng Chiến lược D (Parent-Child Chunking & Retrieval)
+
+Nhằm đi sâu phân tích kiến trúc RAG nâng cao theo đề xuất ở Mục 4, tác giả đã triển khai thực nghiệm độc lập **Chiến lược D (Parent-Child Retriever)** trực tiếp trên cơ sở dữ liệu PostgreSQL 16 pgvector và mô hình embedding `openai/text-embedding-3-small`.
+
+#### 6.1. Thiết kế Kiến trúc Phân cấp (Hierarchical Chunking Architecture)
+- **Cấp độ Parent (53 chunks, Độ dài TB: 1.317 ký tự)**: 
+  - Với 16 trang quy chế: Mỗi **Điều luật hoàn chỉnh** (Điều 1 đến Điều 18) là 1 Parent chunk độc lập, chứa toàn bộ các khoản và quy định điều kiện.
+  - Với 24 trang biểu mẫu phụ lục: Mỗi **Biểu mẫu hoặc Trang phụ lục** là 1 Parent chunk.
+  - Lưu trữ tại bảng `chunks_strategy_d_parent`.
+- **Cấp độ Child (237 chunks, Độ dài TB: 318 ký tự)**:
+  - Mỗi **Khoản luật** hoặc đoạn nội dung ngắn là một Child chunk.
+  - Áp dụng kỹ thuật **Contextual Header Prefix**: Mỗi Child chunk được gắn tiền tố `[Điều X. Tiêu đề Điều]` vào đầu đoạn trước khi embed để bảo toàn ngữ cảnh định danh.
+  - Lưu trữ vector 1536 chiều tại bảng `chunks_strategy_d_child` liên kết khóa ngoại `parent_id`.
+- **Quy trình truy vấn (Two-stage Retrieval)**:
+  - Bước 1: Vector search bắn tỉa tìm Top-5 Child chunks có khoảng cách Cosine nhỏ nhất.
+  - Bước 2: Từ Child chunks, hệ thống tra cứu ngược (Reverse Lookup) để trích xuất các Parent chunks tương ứng, khử trùng lặp (Deduplicate) và nạp vào Context cho LLM.
+
+#### 6.2. Bảng Kết quả Đối chứng Định lượng 4 Chiến lược
+
+| Tiêu chí | Strategy A (Fixed 500) | Strategy B (Paragraph ≤800) | Strategy C (Paragraph + Filter) | Strategy D: Child Level (Khoản 318 chars) | Strategy D: Parent Lookup (Cả Điều 1.317 chars) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Dev Hit@1** | 33.3% (5/15) | **73.3% (11/15)** | **73.3% (11/15)** | 46.7% (7/15) | **60.0% (9/15)** |
+| **Dev Hit@3** | 80.0% (12/15) | **86.7% (13/15)** | **86.7% (13/15)** | 53.3% (8/15) | **60.0% (9/15)** |
+| **Test Hit@1** | 20.0% (1/5) | **60.0% (3/5)** | **60.0% (3/5)** | **60.0% (3/5)** | **60.0% (3/5)** |
+| **Test Hit@3** | **100.0% (5/5)** | 80.0% (4/5) | 80.0% (4/5) | 80.0% (4/5) | 80.0% (4/5) |
+| **Tổng số Chunks**| 206 chunks | 120 chunks | 120 chunks | 237 child chunks | 53 parent chunks |
+| **Thời gian Ingest**| 22.62s | **11.67s** | **11.67s** | 22.98s | Phụ thuộc vào Child Ingest |
+
+#### 6.3. Phát hiện Kỹ thuật Then chốt (Key Insights)
+1. **Hiện tượng Phân mảnh Ngữ cảnh (Context Starvation in Micro-chunks)**:
+   - Khi xé nhỏ văn bản xuống mức Khoản (~318 ký tự), Child Hit@1 sụt giảm xuống còn 46.7% (so với 73.3% của Strategy B).
+   - *Nguyên nhân*: Các câu hỏi tra cứu chính sách thường mang tính tổng hợp, chứa nhiều cụm từ khóa (ví dụ: vừa hỏi về "chính sách ưu đãi hạ tầng", vừa hỏi về "tổ chức KHCN thụ hưởng"). Trong Strategy B (595 ký tự), toàn bộ các cụm từ này nằm trọn trong 1 vector duy nhất. Khi bị bẻ thành 2 Child chunks riêng biệt, mỗi vector con chỉ giữ một nửa từ khóa, làm suy giảm điểm tương đồng Cosine.
+2. **Hiện tượng Cạnh tranh giữa các Chunk anh em (Sibling Competition)**:
+   - Trong cùng 1 Điều luật dài (như Điều 6 hoặc Điều 7), việc tạo ra 5–7 Child chunks có nội dung tương đồng cao khiến các khoản anh em chen chúc nhau chiếm trọn Top 3 vị trí đầu tiên, vô tình đẩy vị trí chứa bằng chứng chính xác ra ngoài Top-3.
+3. **Giá trị Vượt trội cho Khâu LLM Generation (Trade-off Matrix)**:
+   - Mặc dù Retrieval Hit@1 của Strategy D (Parent 60%) thấp hơn Strategy B (73.3%), nhưng với các trường hợp truy vấn thành công, mô hình LLM nhận được **toàn bộ văn bản Điều luật đầy đủ (1.317 ký tự)**. Điều này giải quyết triệt để vấn đề "tham chiếu chéo" (khoản này dẫn chiếu khoản kia), loại bỏ nguy cơ LLM bị ảo giác do thiếu điều kiện loại trừ hoặc thiếu danh mục hồ sơ.
+
+

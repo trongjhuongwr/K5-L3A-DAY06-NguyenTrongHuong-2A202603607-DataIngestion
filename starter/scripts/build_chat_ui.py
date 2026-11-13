@@ -74,13 +74,20 @@ with open(RESULTS_DIR / "traces_strategy_b.json", "r", encoding="utf-8") as f:
 with open(RESULTS_DIR / "traces_strategy_c.json", "r", encoding="utf-8") as f:
     traces_c = {t["question_id"]: t for t in json.load(f)}
 
+traces_d = {}
+traces_d_path = RESULTS_DIR / "traces_strategy_d_parent_child.json"
+if traces_d_path.exists():
+    with open(traces_d_path, "r", encoding="utf-8") as f:
+        traces_d = {t["question_id"]: t for t in json.load(f)}
+
 payload = {
     "pages": pages_data,
     "questions": questions,
     "summary": summary,
     "traces_a": traces_a,
     "traces_b": traces_b,
-    "traces_c": traces_c
+    "traces_c": traces_c,
+    "traces_d": traces_d
 }
 
 json_payload = json.dumps(payload, ensure_ascii=False)
@@ -424,6 +431,19 @@ html_content = """<!DOCTYPE html>
                 <td class="p-3.5 text-emerald-700 font-bold">11.67s ⚡</td>
                 <td class="p-3.5">~$0.0004</td>
               </tr>
+              <tr class="hover:bg-slate-50 bg-purple-50/30">
+                <td class="p-3.5 font-sans font-bold text-purple-900 flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-purple-600"></span>
+                  <span>Strategy D (Parent-Child Retriever)</span>
+                </td>
+                <td class="p-3.5 text-purple-700 font-bold">9/15 (60.0%)</td>
+                <td class="p-3.5 text-purple-700 font-bold">9/15 (60.0%)</td>
+                <td class="p-3.5 text-purple-700 font-bold">3/5 (60.0%)</td>
+                <td class="p-3.5 text-purple-700 font-bold">4/5 (80.0%)</td>
+                <td class="p-3.5">53 Parents / 237 Children</td>
+                <td class="p-3.5">22.98s</td>
+                <td class="p-3.5">~$0.0007</td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -455,6 +475,7 @@ html_content = """<!DOCTYPE html>
                 <th class="p-3">Strat A</th>
                 <th class="p-3">Strat B</th>
                 <th class="p-3">Strat C</th>
+                <th class="p-3 bg-purple-50/60 text-purple-900 font-bold">Strat D (Parent)</th>
                 <th class="p-3 text-right">Thao tác</th>
               </tr>
             </thead>
@@ -741,9 +762,10 @@ html_content = """<!DOCTYPE html>
       const traceA = DATA.traces_a[q.id];
       const traceB = DATA.traces_b[q.id];
       const traceC = DATA.traces_c[q.id];
+      const traceD = DATA.traces_d?.[q.id];
 
       setTimeout(() => {
-        appendAssistantResponse(q, traceA, traceB, traceC);
+        appendAssistantResponse(q, traceA, traceB, traceC, traceD);
         viewCitation(q.gold_page, q.evidence_quote, `Điều khoản tại Trang ${q.gold_page}`);
       }, 300);
     }
@@ -766,7 +788,8 @@ html_content = """<!DOCTYPE html>
           const traceA = DATA.traces_a[matched.id];
           const traceB = DATA.traces_b[matched.id];
           const traceC = DATA.traces_c[matched.id];
-          appendAssistantResponse(matched, traceA, traceB, traceC);
+          const traceD = DATA.traces_d?.[matched.id];
+          appendAssistantResponse(matched, traceA, traceB, traceC, traceD);
           viewCitation(matched.gold_page, matched.evidence_quote, `Trang ${matched.gold_page}`);
         } else {
           appendFallbackResponse(query);
@@ -787,7 +810,7 @@ html_content = """<!DOCTYPE html>
       container.scrollTop = container.scrollHeight;
     }
 
-    function appendAssistantResponse(q, traceA, traceB, traceC) {
+    function appendAssistantResponse(q, traceA, traceB, traceC, traceD) {
       const container = document.getElementById('chat-messages');
       const msg = document.createElement('div');
       msg.className = "flex items-start space-x-3";
@@ -819,7 +842,7 @@ html_content = """<!DOCTYPE html>
           <!-- Strategy Breakdown Dropdown -->
           <details class="text-xs pt-1 text-slate-500 border-t border-slate-100">
             <summary class="cursor-pointer hover:text-indigo-600 font-semibold text-[11px] flex items-center space-x-1 py-1">
-              <span>🔍 Đối chiếu kết quả 3 chiến lược Ingestion</span>
+              <span>🔍 Đối chiếu kết quả 4 chiến lược Ingestion</span>
             </summary>
             <div class="mt-2 space-y-1.5 text-[11px] font-mono">
               <div class="p-1.5 rounded bg-slate-50 flex justify-between border border-slate-100">
@@ -838,6 +861,12 @@ html_content = """<!DOCTYPE html>
                 <span class="text-emerald-900 font-bold">Strategy C (Paragraph + Filter):</span>
                 <span class="${traceC?.hit_1 ? 'text-emerald-700' : 'text-blue-700'} font-bold">
                   ${traceC?.hit_1 ? 'Hit Rank 1 (Tối ưu)' : 'Hit Rank 2-3'}
+                </span>
+              </div>
+              <div class="p-1.5 rounded bg-purple-50 flex justify-between border border-purple-200">
+                <span class="text-purple-950 font-bold">Strategy D (Parent-Child):</span>
+                <span class="${traceD?.parent_hit_1 ? 'text-purple-700' : (traceD?.parent_hit_3 ? 'text-blue-700' : 'text-rose-600')} font-bold">
+                  ${traceD?.parent_hit_1 ? 'Parent Hit Rank 1' : (traceD?.parent_hit_3 ? 'Parent Hit Rank 2-3' : 'MISS')}
                 </span>
               </div>
             </div>
@@ -889,10 +918,17 @@ html_content = """<!DOCTYPE html>
         const trA = DATA.traces_a[q.id];
         const trB = DATA.traces_b[q.id];
         const trC = DATA.traces_c[q.id];
+        const trD = DATA.traces_d?.[q.id];
 
         const fmtBadge = (tr) => {
           if (tr?.hit_1) return '<span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold font-mono text-[10px]">Rank 1</span>';
           if (tr?.hit_3) return '<span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-bold font-mono text-[10px]">Rank 2-3</span>';
+          return '<span class="px-2 py-0.5 rounded bg-rose-100 text-rose-800 font-bold font-mono text-[10px]">Trượt</span>';
+        };
+
+        const fmtBadgeD = (tr) => {
+          if (tr?.parent_hit_1) return '<span class="px-2 py-0.5 rounded bg-purple-100 text-purple-800 font-bold font-mono text-[10px]">Parent R1</span>';
+          if (tr?.parent_hit_3) return '<span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-bold font-mono text-[10px]">Parent R2-3</span>';
           return '<span class="px-2 py-0.5 rounded bg-rose-100 text-rose-800 font-bold font-mono text-[10px]">Trượt</span>';
         };
 
@@ -906,6 +942,7 @@ html_content = """<!DOCTYPE html>
             <td class="p-3">${fmtBadge(trA)}</td>
             <td class="p-3">${fmtBadge(trB)}</td>
             <td class="p-3">${fmtBadge(trC)}</td>
+            <td class="p-3 bg-purple-50/20">${fmtBadgeD(trD)}</td>
             <td class="p-3 text-right">
               <button onclick="switchMainTab('chat'); viewCitationByQid('${q.id}');" class="px-2.5 py-1 rounded bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300 font-semibold text-[11px] shadow-2xs transition-all">
                 Soi Văn Bản ↗

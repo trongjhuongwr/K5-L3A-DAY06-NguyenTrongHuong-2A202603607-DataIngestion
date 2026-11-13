@@ -1,0 +1,457 @@
+[
+  {
+    "question_id": "q01",
+    "question": "Quyết định quy định trình tự, thủ tục thực hiện các chính sách gì trên địa bàn thành phố Hà Nội?",
+    "split": "dev",
+    "gold_page": 2,
+    "evidence_quote": "Quyết định này quy định trình tự, thủ tục thực hiện các chính sách ưu đãi, hỗ trợ phát triển hạ tầng và tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số trên địa bàn thành phố Hà Nội",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_01_k03",
+      "parent_id": "parent_dieu_01",
+      "page": 2,
+      "content": "[Điều 1. Phạm vi điều chỉnh Quyết định này quy định trình tự, thủ tục thực hiện các chính sách ưu đãi, hỗ trợ phát triển hạ tầng và tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số trên địa bàn thành phố Hà Nội theo Nghị quyết số 25/2026/NQ-HĐND ngày 02 tháng 6 năm 2026 của Hội đồng nhân dân thành phố Hà Nội (sau đây gọi tắt là Nghị quyết số 25/2026/NQ-HĐND), bao gồm:]\n3. Trình tự, thủ tục thẩm định, kiểm tra, giám sát, đánh giá, nghiệm thu, thu hồi kinh phí hỗ trợ, xem xét chấp nhận rủi ro và các nội dung khác có liên quan trong quá trình thực hiện chính sách hỗ trợ.",
+      "similarity": 0.6817675536431089
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_01",
+      "title": "Điều 1. Phạm vi điều chỉnh Quyết định này quy định trình tự, thủ tục thực hiện các chính sách ưu đãi, hỗ trợ phát triển hạ tầng và tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số trên địa bàn thành phố Hà Nội theo Nghị quyết số 25/2026/NQ-HĐND ngày 02 tháng 6 năm 2026 của Hội đồng nhân dân thành phố Hà Nội (sau đây gọi tắt là Nghị quyết số 25/2026/NQ-HĐND), bao gồm:",
+      "page_start": 2,
+      "page_end": 2,
+      "content": "Điều 1. Phạm vi điều chỉnh Quyết định này quy định trình tự, thủ tục thực hiện các chính sách ưu đãi, hỗ trợ phát triển hạ tầng và tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số trên địa bàn thành phố Hà Nội theo Nghị quyết số 25/2026/NQ-HĐND ngày 02 tháng 6 năm 2026 của Hội đồng nhân dân thành phố Hà Nội (sau đây gọi tắt là Nghị quyết số 25/2026/NQ-HĐND), bao gồm:\n\n1. Trình tự, thủ tục thực hiện các nội dung hỗ trợ phát triển hạ tầng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số theo Điều 6 Nghị quyết số 25/2026/NQ-HĐND.\n\n2. Quy định chi tiết chính sách ưu đãi, hỗ trợ đối với tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số theo Điều 10 Nghị quyết số 25/2026/NQ-HĐND.\n\n3. Trình tự, thủ tục thẩm định, kiểm tra, giám sát, đánh giá, nghiệm thu, thu hồi kinh phí hỗ trợ, xem xét chấp nhận rủi ro và các nội dung khác có liên quan trong quá trình thực hiện chính sách hỗ trợ.\n\n4. Trách nhiệm của các cơ quan, tổ chức, cá nhân có liên quan trong việc tổ chức thực hiện Quyết định này.",
+      "best_child_sim": 0.6817675536431089
+    }
+  },
+  {
+    "question_id": "q02",
+    "question": "Đối tượng áp dụng tại Điều 2 của Quyết định bao gồm những tổ chức nào?",
+    "split": "dev",
+    "gold_page": 2,
+    "evidence_quote": "1. Quỹ Phát triển khoa học, công nghệ và đổi mới sáng tạo của thành phố Hà Nội (sau đây gọi tắt là Quỹ), các cơ quan nhà nước có chức năng, nhiệm vụ tổ chức thực hiện các chính sách hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND.",
+    "child_hit_1": false,
+    "child_hit_3": false,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_02_k03",
+      "parent_id": "parent_dieu_02",
+      "page": 2,
+      "content": "[Điều 2. Đối tượng áp dụng]\n3. Các tổ chức, cá nhân tham gia thẩm định, tư vấn, kiểm tra, giám sát, đánh giá, nghiệm thu và các hoạt động khác có liên quan.",
+      "similarity": 0.731494623489815
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_02",
+      "title": "Điều 2. Đối tượng áp dụng",
+      "page_start": 2,
+      "page_end": 2,
+      "content": "Điều 2. Đối tượng áp dụng\n\n1. Quỹ Phát triển khoa học, công nghệ và đổi mới sáng tạo của thành phố Hà Nội (sau đây gọi tắt là Quỹ), các cơ quan nhà nước có chức năng, nhiệm vụ tổ chức thực hiện các chính sách hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND.\n\n2. Các tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số thuộc đối tượng được thụ hưởng chính sách hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND.\n\n3. Các tổ chức, cá nhân tham gia thẩm định, tư vấn, kiểm tra, giám sát, đánh giá, nghiệm thu và các hoạt động khác có liên quan.\n\n4. Các cơ quan, tổ chức, cá nhân khác có liên quan.",
+      "best_child_sim": 0.731494623489815
+    }
+  },
+  {
+    "question_id": "q03",
+    "question": "Hồ sơ đề nghị hỗ trợ phát triển hạ tầng quy định đơn đề nghị và thuyết minh dự án theo những mẫu nào?",
+    "split": "dev",
+    "gold_page": 3,
+    "evidence_quote": "Mẫu số 01 tại Phụ lục ban hành kèm theo Quyết định này); b) Thuyết minh dự án, trong đó bao gồm phương án vận hành và dự toán kinh phí vận hành (nếu đề nghị hỗ trợ chi phí vận hành) (theo Mẫu số 02",
+    "child_hit_1": false,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_06_k03",
+      "parent_id": "parent_dieu_06",
+      "page": 4,
+      "content": "[Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ]\n3. Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị; xây dựng và vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng quy định tại khoản 4 Điều 6 Nghị quyết số 25/2026/NQ-HĐND, bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng minh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\n\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện nội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng (nếu đã thực hiện);\n\nđ) Các tài liệu khác có liên quan (nếu có).",
+      "similarity": 0.632571653921592
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_06",
+      "title": "Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ",
+      "page_start": 3,
+      "page_end": 5,
+      "content": "Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ\n\n1. Điều kiện và tiêu chí hỗ trợ được thực hiện theo quy định tại Điều 7 Nghị quyết số 25/2026/NQ-HĐND.\n\n2. Hồ sơ đề nghị hỗ trợ đầu tư mới, nâng cấp, chi phí vận hành hạ tầng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quy định tại khoản 1, khoản 2 và khoản 3 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 01 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh dự án, trong đó bao gồm phương án vận hành và dự toán kinh phí vận hành (nếu đề nghị hỗ trợ chi phí vận hành) (theo Mẫu số 02 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hồ sơ pháp lý của tổ chức đề nghị hỗ trợ (Giấy chứng nhận đăng ký doanh nghiệp/Quyết định thành lập/Giấy chứng nhận đăng ký tổ chức khoa học và công nghệ hoặc giấy tờ pháp lý khác có giá trị tương đương);\n\nd) Văn bản xác nhận không nợ thuế (của cơ quan Thuế) và không nợ đóng bảo hiểm xã hội (của cơ quan Bảo hiểm xã hội) tính đến thời điểm nộp hồ sơ;\nđ) Tài liệu chứng minh năng lực tài chính và khả năng bố trí vốn đối ứng (nếu thuộc trường hợp phải có vốn đối ứng);\n\ne) Các tài liệu khác có liên quan (nếu có).\n\n3. Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị; xây dựng và vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng quy định tại khoản 4 Điều 6 Nghị quyết số 25/2026/NQ-HĐND, bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng minh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\n\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện nội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng (nếu đã thực hiện);\n\nđ) Các tài liệu khác có liên quan (nếu có).\n\n4. Hồ sơ đề nghị miễn phí sử dụng vị trí đặt thiết bị, cáp viễn thông tại hệ thống hạ tầng kỹ thuật phục vụ đô thị thông minh của Thành phố trong thời gian 02 năm (đối với tổ chức, doanh nghiệp triển khai theo hình thức xã hội hóa) quy định tại khoản 5 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 05 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Tài liệu liên quan việc tổ chức, doanh nghiệp triển khai đầu tư, lắp đặt thiết bị, cáp viễn thông (đối với trường hợp đã triển khai lắp đặt thiết bị, cáp viễn thông);\n\nc) Phương án đề xuất sử dụng vị trí hạ tầng kỹ thuật, trong đó nêu rõ vị trí, thời gian, danh mục thiết bị dự kiến lắp đặt (đối với trường hợp chưa triển khai lắp đặt thiết bị, cáp viễn thông).\n\nd) Các tài liệu khác có liên quan (nếu có).\n\n5. Hồ sơ đề nghị hỗ trợ chi phí vận hành Sàn Giao dịch công nghệ (do Thành phố phê duyệt đề án thành lập) quy định tại khoản 6 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 06 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Đề án/phương án quản lý, vận hành Sàn Giao dịch công nghệ và kết quả dự kiến đạt được hằng năm (đối với 03 năm đầu tiên);\n\nc) Dự toán chi tiết kinh phí quản lý, vận hành Sàn Giao dịch công nghệ (03 năm đầu tiên);\n\nd) Bảng kê kèm theo hồ sơ, chứng từ minh chứng chi phí vận hành Sàn Giao dịch công nghệ (nếu có);\n\nđ) Các tài liệu khác có liên quan (nếu có).",
+      "best_child_sim": 0.632571653921592
+    }
+  },
+  {
+    "question_id": "q04",
+    "question": "Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị phải sử dụng các biểu mẫu nào?",
+    "split": "dev",
+    "gold_page": 4,
+    "evidence_quote": "Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết định này); b) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định này);",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_06_k03",
+      "parent_id": "parent_dieu_06",
+      "page": 4,
+      "content": "[Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ]\n3. Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị; xây dựng và vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng quy định tại khoản 4 Điều 6 Nghị quyết số 25/2026/NQ-HĐND, bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng minh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\n\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện nội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng (nếu đã thực hiện);\n\nđ) Các tài liệu khác có liên quan (nếu có).",
+      "similarity": 0.6363293062881613
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_06",
+      "title": "Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ",
+      "page_start": 3,
+      "page_end": 5,
+      "content": "Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ\n\n1. Điều kiện và tiêu chí hỗ trợ được thực hiện theo quy định tại Điều 7 Nghị quyết số 25/2026/NQ-HĐND.\n\n2. Hồ sơ đề nghị hỗ trợ đầu tư mới, nâng cấp, chi phí vận hành hạ tầng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quy định tại khoản 1, khoản 2 và khoản 3 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 01 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh dự án, trong đó bao gồm phương án vận hành và dự toán kinh phí vận hành (nếu đề nghị hỗ trợ chi phí vận hành) (theo Mẫu số 02 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hồ sơ pháp lý của tổ chức đề nghị hỗ trợ (Giấy chứng nhận đăng ký doanh nghiệp/Quyết định thành lập/Giấy chứng nhận đăng ký tổ chức khoa học và công nghệ hoặc giấy tờ pháp lý khác có giá trị tương đương);\n\nd) Văn bản xác nhận không nợ thuế (của cơ quan Thuế) và không nợ đóng bảo hiểm xã hội (của cơ quan Bảo hiểm xã hội) tính đến thời điểm nộp hồ sơ;\nđ) Tài liệu chứng minh năng lực tài chính và khả năng bố trí vốn đối ứng (nếu thuộc trường hợp phải có vốn đối ứng);\n\ne) Các tài liệu khác có liên quan (nếu có).\n\n3. Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị; xây dựng và vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng quy định tại khoản 4 Điều 6 Nghị quyết số 25/2026/NQ-HĐND, bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng minh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\n\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện nội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng (nếu đã thực hiện);\n\nđ) Các tài liệu khác có liên quan (nếu có).\n\n4. Hồ sơ đề nghị miễn phí sử dụng vị trí đặt thiết bị, cáp viễn thông tại hệ thống hạ tầng kỹ thuật phục vụ đô thị thông minh của Thành phố trong thời gian 02 năm (đối với tổ chức, doanh nghiệp triển khai theo hình thức xã hội hóa) quy định tại khoản 5 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 05 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Tài liệu liên quan việc tổ chức, doanh nghiệp triển khai đầu tư, lắp đặt thiết bị, cáp viễn thông (đối với trường hợp đã triển khai lắp đặt thiết bị, cáp viễn thông);\n\nc) Phương án đề xuất sử dụng vị trí hạ tầng kỹ thuật, trong đó nêu rõ vị trí, thời gian, danh mục thiết bị dự kiến lắp đặt (đối với trường hợp chưa triển khai lắp đặt thiết bị, cáp viễn thông).\n\nd) Các tài liệu khác có liên quan (nếu có).\n\n5. Hồ sơ đề nghị hỗ trợ chi phí vận hành Sàn Giao dịch công nghệ (do Thành phố phê duyệt đề án thành lập) quy định tại khoản 6 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 06 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Đề án/phương án quản lý, vận hành Sàn Giao dịch công nghệ và kết quả dự kiến đạt được hằng năm (đối với 03 năm đầu tiên);\n\nc) Dự toán chi tiết kinh phí quản lý, vận hành Sàn Giao dịch công nghệ (03 năm đầu tiên);\n\nd) Bảng kê kèm theo hồ sơ, chứng từ minh chứng chi phí vận hành Sàn Giao dịch công nghệ (nếu có);\n\nđ) Các tài liệu khác có liên quan (nếu có).",
+      "best_child_sim": 0.6363293062881613
+    }
+  },
+  {
+    "question_id": "q05",
+    "question": "Sở Khoa học và Công nghệ có thời hạn bao nhiêu ngày làm việc để kiểm tra tính đầy đủ, hợp lệ của hồ sơ hỗ trợ phát triển hạ tầng?",
+    "split": "dev",
+    "gold_page": 5,
+    "evidence_quote": "Trong thời hạn không quá 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Khoa học và Công nghệ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Sở Khoa học và Công nghệ thông báo cho tổ chức có nhu cầu nhận hỗ trợ về tính hợp lệ của hồ sơ; hoặc yêu cầu bổ sung, hoàn thiện hồ sơ",
+    "child_hit_1": false,
+    "child_hit_3": false,
+    "parent_hit_1": false,
+    "parent_hit_3": false,
+    "top_child": null,
+    "top_parent": null
+  },
+  {
+    "question_id": "q06",
+    "question": "Hội đồng tư vấn xét duyệt hồ sơ có số lượng thành viên là bao nhiêu và gồm những ai?",
+    "split": "dev",
+    "gold_page": 7,
+    "evidence_quote": "từ 07 đến 11 thành viên, bao gồm Chủ tịch Hội đồng, Phó Chủ tịch Hội đồng, các Ủy viên, Thư ký hành chính và các thành viên khác do người có thẩm quyền quyết định trên cơ sở tính chất, nội dung xem xét.",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_08_k02",
+      "parent_id": "parent_dieu_08",
+      "page": 7,
+      "content": "[Điều 8. Hội đồng tư vấn]\n2. Tổ chức của Hội đồng tư vấn\n\na) Hội đồng tư vấn có số lượng thành viên là số lẻ, từ 07 đến 11 thành viên, bao gồm Chủ tịch Hội đồng, Phó Chủ tịch Hội đồng, các Ủy viên, Thư ký hành chính và các thành viên khác do người có thẩm quyền quyết định trên cơ sở tính chất, nội dung xem xét. Hội đồng tư vấn thực hiện việc thẩm định, đánh giá hồ sơ đề nghị hỗ trợ hoặc đánh giá, nghiệm thu kết quả thực hiện hỗ trợ phải có ít nhất 02 Ủy viên phản biện.\n\nb) Thành viên Hội đồng tư vấn bao gồm các chuyên gia, nhà khoa học, doanh nhân, đại diện Sở Khoa học và Công nghệ, đại diện Quỹ và đại diện các cơ quan, tổ chức có liên quan.\n\nc) Các chuyên gia, nhà khoa học, doanh nhân là thành viên Hội đồng không thuộc tổ chức đề nghị hỗ trợ; có trình độ chuyên môn hoặc kinh nghiệm phù hợp với nội dung được xem xét.",
+      "similarity": 0.665373877071499
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_08",
+      "title": "Điều 8. Hội đồng tư vấn",
+      "page_start": 7,
+      "page_end": 7,
+      "content": "Điều 8. Hội đồng tư vấn\n\n1. Hội đồng tư vấn được thành lập để thực hiện việc thẩm định, đánh giá hồ sơ đề nghị hỗ trợ; kiểm tra, giám sát; đánh giá, nghiệm thu kết quả thực hiện; xem xét điều chỉnh hợp đồng hỗ trợ; xem xét thu hồi, hoàn trả kinh phí hỗ trợ; xem xét chấp nhận rủi ro và các nội dung khác theo quy định tại Quyết định này.\n\n2. Tổ chức của Hội đồng tư vấn\n\na) Hội đồng tư vấn có số lượng thành viên là số lẻ, từ 07 đến 11 thành viên, bao gồm Chủ tịch Hội đồng, Phó Chủ tịch Hội đồng, các Ủy viên, Thư ký hành chính và các thành viên khác do người có thẩm quyền quyết định trên cơ sở tính chất, nội dung xem xét. Hội đồng tư vấn thực hiện việc thẩm định, đánh giá hồ sơ đề nghị hỗ trợ hoặc đánh giá, nghiệm thu kết quả thực hiện hỗ trợ phải có ít nhất 02 Ủy viên phản biện.\n\nb) Thành viên Hội đồng tư vấn bao gồm các chuyên gia, nhà khoa học, doanh nhân, đại diện Sở Khoa học và Công nghệ, đại diện Quỹ và đại diện các cơ quan, tổ chức có liên quan.\n\nc) Các chuyên gia, nhà khoa học, doanh nhân là thành viên Hội đồng không thuộc tổ chức đề nghị hỗ trợ; có trình độ chuyên môn hoặc kinh nghiệm phù hợp với nội dung được xem xét.\n\n3. Trách nhiệm của Hội đồng tư vấn\n\na) Thẩm định, đánh giá hồ sơ đề nghị hỗ trợ; tham gia giám sát; nghiệm thu kết quả thực hiện;\n\nb) Đề xuất việc tiếp tục hoặc chấm dứt hỗ trợ, thu hồi, hoàn trả kinh phí hỗ trợ, chấp nhận rủi ro và các nội dung khác theo quy định tại Quyết định này.\n\n4. Nguyên tắc hoạt động của Hội đồng tư vấn Thực hiện theo khoản 4 Điều 9 Nghị quyết số 25/2026/NQ-HĐND.\n\n5. Mức chi cho Hội đồng tư vấn:\n\nThực hiện theo quy định tại Phụ lục I ban hành kèm theo Nghị quyết số 25/2026/NQ-HĐND.",
+      "best_child_sim": 0.665373877071499
+    }
+  },
+  {
+    "question_id": "q07",
+    "question": "Trách nhiệm duy trì vận hành hạ tầng sau hỗ trợ được quy định tối thiểu trong bao lâu?",
+    "split": "dev",
+    "gold_page": 8,
+    "evidence_quote": "trách nhiệm duy trì vận hành hạ tầng sau hỗ trợ tối thiểu 5 năm; đ) Chế độ báo cáo, kiểm tra, giám sát, nghiệm thu;",
+    "child_hit_1": false,
+    "child_hit_3": false,
+    "parent_hit_1": false,
+    "parent_hit_3": false,
+    "top_child": {
+      "chunk_id": "child_p21_c04",
+      "parent_id": "parent_page_21",
+      "page": 21,
+      "content": "[Phụ lục Biểu mẫu Trang 21 - Trang 21]\n- Phương án duy trì hoạt động tối thiểu 05 năm sau khi kết thúc thời gian hỗ trợ.",
+      "similarity": 0.6300290619708802
+    },
+    "top_parent": {
+      "parent_id": "parent_page_21",
+      "title": "Phụ lục Biểu mẫu Trang 21",
+      "page_start": 21,
+      "page_end": 21,
+      "content": "- Nêu căn cứ xác định:\n\n+ Tên lĩnh vực trọng điểm hoặc công nghệ chiến lược: ...\n\n+ Văn bản làm căn cứ xác định: . ...\n\n+ Nội dung của dự án gắn với lĩnh vực trọng điểm hoặc công nghệ chiến lược:\n\n...\n\n+ Vai trò, tác động dự kiến đối với phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số của Thành phố: ...\n\n2. Sự cần thiết đầu tư Trình bày:\n\n- Hiện trạng hạ tầng, trang thiết bị, hệ thống kỹ thuật có liên quan - Những khó khăn, hạn chế của hạ tầng hiện có - Sự cần thiết, nhu cầu đầu tư mới/nâng cấp - Sự cần thiết Nhà nước hỗ trợ - Khả năng tránh đầu tư trùng lặp, phân tán, lãng phí nguồn lực\n\n3. Tính khả thi Làm rõ:\n\n- Điều kiện về địa điểm, mặt bằng - Điều kiện về hạ tầng kỹ thuật - Giải pháp công nghệ, kỹ thuật chủ yếu;\n\n- Điều kiện về trang thiết bị, phần mềm, dữ liệu và các nguồn lực cần thiết;\n\n- Nguồn nhân lực quản lý, vận hành và khai thác;\n\n- Năng lực tổ chức thực hiện;\n\n- Nguồn lực tài chính và khả năng bố trí vốn đối ứng (nếu có);\n\n- Các điều kiện pháp lý cần thiết để triển khai, quản lý và khai thác hạ tầng.\n\n4. Phương án quản lý, vận hành và duy trì hoạt động Làm rõ:\n\n- Mô hình tổ chức quản lý, vận hành - Đơn vị quản lý, vận hành.\n\n- Nhân lực quản lý, vận hành;\n\n- Phương thức khai thác, cung cấp sản phẩm, dịch vụ;\n\n- Nguồn kinh phí bảo đảm vận hành;\n\n- Phương án bảo trì, bảo dưỡng, nâng cấp;\n\n- Phương án bảo đảm hoạt động ổn định, liên tục;\n\n- Phương án duy trì hoạt động tối thiểu 05 năm sau khi kết thúc thời gian hỗ trợ.\n\n5. Phương án chia sẻ, sử dụng chung",
+      "best_child_sim": 0.6300290619708802
+    }
+  },
+  {
+    "question_id": "q08",
+    "question": "Việc kiểm tra, giám sát định kỳ hợp đồng hỗ trợ được thực hiện với tần suất như thế nào?",
+    "split": "dev",
+    "gold_page": 8,
+    "evidence_quote": "Việc kiểm tra, giám sát được thực hiện theo định kỳ tối thiểu 01 lần/năm hoặc theo các mốc tiến độ, kết quả đầu ra quy định trong hợp đồng hỗ trợ.",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_10_k01",
+      "parent_id": "parent_dieu_10",
+      "page": 8,
+      "content": "[Điều 10. Kiểm tra, giám sát việc thực hiện hỗ trợ]\n1. Thời điểm kiểm tra, giám sát Việc kiểm tra, giám sát được thực hiện theo định kỳ tối thiểu 01 lần/năm hoặc theo các mốc tiến độ, kết quả đầu ra quy định trong hợp đồng hỗ trợ. Trong một số trường hợp theo yêu cầu quản lý và biện pháp quản trị rủi ro, Quỹ tiến hành kiểm tra, giám sát đột xuất. Kết quả kiểm tra, giám sát là căn cứ để xem xét việc tiếp tục giải ngân kinh phí hỗ trợ, điều chỉnh hợp đồng hoặc xử lý theo quy định tại Điều 13 và Điều 14 Quyết định này.",
+      "similarity": 0.6789985324488143
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_10",
+      "title": "Điều 10. Kiểm tra, giám sát việc thực hiện hỗ trợ",
+      "page_start": 8,
+      "page_end": 9,
+      "content": "Điều 10. Kiểm tra, giám sát việc thực hiện hỗ trợ\n\n1. Thời điểm kiểm tra, giám sát Việc kiểm tra, giám sát được thực hiện theo định kỳ tối thiểu 01 lần/năm hoặc theo các mốc tiến độ, kết quả đầu ra quy định trong hợp đồng hỗ trợ. Trong một số trường hợp theo yêu cầu quản lý và biện pháp quản trị rủi ro, Quỹ tiến hành kiểm tra, giám sát đột xuất. Kết quả kiểm tra, giám sát là căn cứ để xem xét việc tiếp tục giải ngân kinh phí hỗ trợ, điều chỉnh hợp đồng hoặc xử lý theo quy định tại Điều 13 và Điều 14 Quyết định này.\n\n2. Phương thức kiểm tra, giám sát\n\na) Việc kiểm tra, giám sát được thực hiện theo phương thức trực tiếp, trực tuyến hoặc kết hợp hai phương thức trên;\n\nb) Quỹ thành lập Hội đồng tư vấn theo quy định tại Điều 8 Quyết định này và tiến hành kiểm tra, giám sát thực tế để đánh giá kết quả thực hiện hợp đồng hỗ trợ.\n\n3. Hồ sơ phục vụ kiểm tra, giám sát bao gồm:\n\na) Quyết định hỗ trợ của cơ quan có thẩm quyền;\n\nb) Hợp đồng hỗ trợ;\n\nc) Báo cáo kết quả thực hiện theo hợp đồng hỗ trợ, trong đó thể hiện tiến độ thực hiện; kết quả, sản phẩm đầu ra; tình hình sử dụng kinh phí; việc thực hiện các nghĩa vụ, cam kết theo hợp đồng và các tài liệu minh chứng kèm theo;\n\nd) Các tài liệu khác có liên quan (nếu có).\n\n4. Tổ chức được hỗ trợ có trách nhiệm cung cấp đầy đủ, trung thực, kịp thời hồ sơ, tài liệu tại điểm c và điểm d khoản 3 Điều này đến Quỹ thông qua Hệ thống tiếp nhận hồ sơ trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính; tạo điều kiện để Quỹ, Hội đồng tư vấn và cơ quan có thẩm quyền thực hiện việc kiểm tra, giám sát;\n\nthực hiện đầy đủ các kiến nghị, yêu cầu sau kiểm tra theo quy định.\n\n5. Hồ sơ phục vụ kiểm tra, giám sát được gửi tới thành viên Hội đồng tư vấn ít nhất 03 ngày trước thời điểm họp Hội đồng.\n\n6. Kết quả họp Hội đồng tư vấn; kết quả kiểm tra, giám sát thực tế được lập thành Biên bản; là căn cứ để xem xét việc tiếp tục thực hiện hỗ trợ, giải ngân kinh phí hỗ trợ, điều chỉnh nội dung hoặc tiến độ thực hiện hợp đồng, tạm dừng hoặc chấm dứt hợp đồng hỗ trợ, thu hồi kinh phí hỗ trợ và xử lý các nội dung khác theo quy định tại Quyết định này.",
+      "best_child_sim": 0.6789985324488143
+    }
+  },
+  {
+    "question_id": "q09",
+    "question": "Việc điều chỉnh hợp đồng hỗ trợ có được làm tăng tổng mức kinh phí hỗ trợ từ ngân sách Thành phố không?",
+    "split": "dev",
+    "gold_page": 9,
+    "evidence_quote": "tổng mức kinh phí hỗ trợ từ ngân sách Thành phố.",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_11_k02",
+      "parent_id": "parent_dieu_11",
+      "page": 9,
+      "content": "[Điều 11. Điều chỉnh hợp đồng hỗ trợ]\n2. Việc điều chỉnh hợp đồng hỗ trợ không được làm tăng tổng mức kinh phí hỗ trợ từ ngân sách Thành phố.",
+      "similarity": 0.8274718389046659
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_11",
+      "title": "Điều 11. Điều chỉnh hợp đồng hỗ trợ",
+      "page_start": 9,
+      "page_end": 9,
+      "content": "Điều 11. Điều chỉnh hợp đồng hỗ trợ\n\n1. Trong quá trình thực hiện hợp đồng hỗ trợ, trường hợp cần phải điều chỉnh hợp đồng hỗ trợ, tổ chức được nhận hỗ trợ có văn bản đề nghị gửi Quỹ, trong đó nêu rõ nội dung đề nghị điều chỉnh, lý do, sự cần thiết, ảnh hưởng của việc điều chỉnh đối với mục tiêu, tiến độ, kết quả đầu ra và hiệu quả của nội dung được hỗ trợ kèm theo tài liệu giải trình và các hồ sơ có liên quan.\n\n2. Việc điều chỉnh hợp đồng hỗ trợ không được làm tăng tổng mức kinh phí hỗ trợ từ ngân sách Thành phố.\n\n3. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị điều chỉnh hợp đồng, Quỹ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ chưa đầy đủ hoặc cần làm rõ, Quỹ thông báo bằng văn bản để tổ chức được nhận hỗ trợ bổ sung, hoàn thiện.\n\n4. Tổ chức được nhận hỗ trợ có trách nhiệm hoàn thiện và nộp lại hồ sơ trong thời hạn 07 ngày kể từ ngày nhận được thông báo của Quỹ.\n\n5. Trên cơ sở hồ sơ đề nghị điều chỉnh, Quỹ tổ chức xem xét, đánh giá sự cần thiết, tính hợp lý, tính khả thi và ảnh hưởng của nội dung điều chỉnh đối với mục tiêu, hiệu quả và kết quả thực hiện hỗ trợ theo một hoặc kết hợp các hình thức sau:\n\na) Quỹ tự tổ chức xem xét, đánh giá;\n\nb) Quỹ thành lập Hội đồng tư vấn theo quy định tại Điều 8 Quyết định này;\n\nc) Lấy ý kiến bằng văn bản của cơ quan, tổ chức có liên quan.\n\n6. Căn cứ kết quả đánh giá quy định tại khoản 5 Điều này, Quỹ xem xét, quyết định việc điều chỉnh hợp đồng hỗ trợ (trong thời hạn không quá 30 ngày kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ). Quỹ báo cáo kết quả thực hiện với Ủy ban nhân dân Thành phố và Sở Khoa học và Công nghệ.",
+      "best_child_sim": 0.8274718389046659
+    }
+  },
+  {
+    "question_id": "q10",
+    "question": "Kết quả đánh giá, nghiệm thu thực hiện hợp đồng hỗ trợ được xếp loại theo các mức nào?",
+    "split": "dev",
+    "gold_page": 10,
+    "evidence_quote": "Kết quả nghiệm thu được xếp loại theo một trong các mức sau: a) Đạt; b) Không đạt.",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_12_k06",
+      "parent_id": "parent_dieu_12",
+      "page": 10,
+      "content": "[Điều 12. Đánh giá, nghiệm thu kết quả thực hiện hợp đồng hỗ trợ]\n6. Kết quả nghiệm thu được xếp loại theo một trong các mức sau:\n\na) Đạt;\n\nb) Không đạt.",
+      "similarity": 0.7336674047724574
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_12",
+      "title": "Điều 12. Đánh giá, nghiệm thu kết quả thực hiện hợp đồng hỗ trợ",
+      "page_start": 9,
+      "page_end": 10,
+      "content": "Điều 12. Đánh giá, nghiệm thu kết quả thực hiện hợp đồng hỗ trợ\n\n1. Trong thời hạn thực hiện hợp đồng hỗ trợ hoặc thời gian được gia hạn (nếu có), tổ chức được hỗ trợ có trách nhiệm gửi hồ sơ đề nghị nghiệm thu đến Quỹ.\n\n2. Hình thức nộp: trên Hệ thống tiếp nhận hồ sơ trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính hoặc qua iHanoi về Quỹ. Hồ sơ đề nghị nghiệm thu bao gồm:\n\na) Văn bản đề nghị nghiệm thu;\n\nb) Báo cáo kết quả thực hiện theo hợp đồng hỗ trợ, trong đó thể hiện mức độ hoàn thành mục tiêu, nội dung, tiến độ, kết quả, sản phẩm đầu ra; tình hình quản lý, sử dụng kinh phí hỗ trợ; việc thực hiện các nghĩa vụ, cam kết theo hợp đồng; khó khăn, vướng mắc, rủi ro phát sinh (nếu có) và các hồ sơ, tài liệu minh chứng kèm theo;\n\nc) Báo cáo kiểm toán độc lập về chi phí thực hiện đối với hợp đồng được hỗ trợ từ ngân sách Thành phố trên 3.000.000.000 đồng (Ba tỷ đồng).\n\nd) Tài liệu khác có liên quan (nếu có).\n\n3. Trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Quỹ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Quỹ thông báo để tổ chức được hỗ trợ bổ sung, hoàn thiện hồ sơ.\n\n4. Trong thời hạn 20 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Quỹ thành\nlập và tổ chức họp Hội đồng tư vấn đánh giá, nghiệm thu kết quả thực hiện theo hợp đồng.\n\n5. Nội dung đánh giá, nghiệm thu bao gồm:\n\na) Mức độ hoàn thành theo hợp đồng hỗ trợ;\n\nb) Điều kiện xem xét áp dụng cơ chế chấp nhận rủi ro (nếu có).\n\n6. Kết quả nghiệm thu được xếp loại theo một trong các mức sau:\n\na) Đạt;\n\nb) Không đạt.\n\n7. Kết quả đánh giá, nghiệm thu được lập thành Biên bản nghiệm thu và là căn cứ để:\n\na) Giải ngân kinh phí hỗ trợ còn lại;\n\nb) Chấm dứt và thanh lý hợp đồng hỗ trợ sau khi hoàn thành các nghĩa vụ theo hợp đồng;\n\nc) Xem xét dừng hỗ trợ, thu hồi toàn bộ hoặc một phần kinh phí hỗ trợ theo quy định tại Điều 13 Quyết định này;\n\nd) Xem xét áp dụng cơ chế chấp nhận rủi ro theo quy định tại Điều 14 Quyết định này.",
+      "best_child_sim": 0.7336674047724574
+    }
+  },
+  {
+    "question_id": "q11",
+    "question": "Hậu quả pháp lý khi tổ chức sử dụng kinh phí hỗ trợ sai mục đích là gì?",
+    "split": "dev",
+    "gold_page": 10,
+    "evidence_quote": "dừng hỗ trợ, thu hồi toàn bộ hoặc một phần kinh phí hỗ trợ theo quy định tại Điều 13 Quyết định này;",
+    "child_hit_1": false,
+    "child_hit_3": false,
+    "parent_hit_1": false,
+    "parent_hit_3": false,
+    "top_child": {
+      "chunk_id": "child_dieu_25_k01",
+      "parent_id": "parent_dieu_25",
+      "page": 15,
+      "content": "[Điều 25. Trách nhiệm của tổ chức nhận hỗ trợ]\n1. Quản lý, sử dụng kinh phí hỗ trợ đúng mục đích, đúng đối tượng, bảo đảm hiệu quả, tiết kiệm và tuân thủ quy định của pháp luật.",
+      "similarity": 0.5875264689944403
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_25",
+      "title": "Điều 25. Trách nhiệm của tổ chức nhận hỗ trợ",
+      "page_start": 15,
+      "page_end": 16,
+      "content": "Điều 25. Trách nhiệm của tổ chức nhận hỗ trợ\n\n1. Quản lý, sử dụng kinh phí hỗ trợ đúng mục đích, đúng đối tượng, bảo đảm hiệu quả, tiết kiệm và tuân thủ quy định của pháp luật.\n\n2. Thực hiện đầy đủ các nội dung đã cam kết trong hồ sơ đề nghị hỗ trợ, hợp đồng hỗ trợ và các văn bản có liên quan.\n\n3. Duy trì hoạt động, khai thác hiệu quả hạ tầng được hỗ trợ; thực hiện các\ncam kết về chia sẻ, sử dụng chung hạ tầng và duy trì kết quả hỗ trợ theo quy định.\n\n4. Thực hiện chế độ báo cáo định kỳ theo hợp đồng hỗ trợ, theo quy định tại Quyết định này và đột xuất theo yêu cầu của cơ quan có thẩm quyền.\n\n5. Thực hiện việc hoàn trả kinh phí hỗ trợ trong các trường hợp phải thu hồi theo quy định của Nghị quyết, Quyết định này và quy định của pháp luật.\n\n6. Thực hiện các trách nhiệm khác theo quy định của pháp luật.",
+      "best_child_sim": 0.5875264689944403
+    }
+  },
+  {
+    "question_id": "q12",
+    "question": "Khi dự án gặp rủi ro khách quan dẫn đến không đạt kết quả, tổ chức cần gửi hồ sơ đề nghị áp dụng cơ chế chấp nhận rủi ro đến cơ quan nào?",
+    "split": "dev",
+    "gold_page": 11,
+    "evidence_quote": "áp dụng cơ chế chấp nhận rủi ro, kèm theo tài liệu chứng minh gửi Quỹ Phát triển khoa học, công nghệ và đổi mới sáng tạo Thành phố.",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_14_k02",
+      "parent_id": "parent_dieu_14",
+      "page": 11,
+      "content": "[Điều 14. Xem xét áp dụng Cơ chế chấp nhận rủi ro]\n2. Trường hợp kết quả thực hiện hợp đồng hỗ trợ không đạt theo cam kết do rủi ro khách quan hoặc nguyên nhân bất khả kháng, tổ chức được hỗ trợ có văn bản đề nghị áp dụng cơ chế chấp nhận rủi ro, kèm theo tài liệu chứng minh gửi Quỹ Phát triển khoa học, công nghệ và đổi mới sáng tạo Thành phố.",
+      "similarity": 0.6130370782199261
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_14",
+      "title": "Điều 14. Xem xét áp dụng Cơ chế chấp nhận rủi ro",
+      "page_start": 11,
+      "page_end": 11,
+      "content": "Điều 14. Xem xét áp dụng Cơ chế chấp nhận rủi ro\n\n1. Việc xem xét chấp nhận rủi ro trong thực hiện hỗ trợ được thực hiện theo quy định tại điểm b khoản 3 Điều 4 và điểm b khoản 2 Điều 8 Nghị quyết số 25/2026/NQ-HĐND.\n\n2. Trường hợp kết quả thực hiện hợp đồng hỗ trợ không đạt theo cam kết do rủi ro khách quan hoặc nguyên nhân bất khả kháng, tổ chức được hỗ trợ có văn bản đề nghị áp dụng cơ chế chấp nhận rủi ro, kèm theo tài liệu chứng minh gửi Quỹ Phát triển khoa học, công nghệ và đổi mới sáng tạo Thành phố.\n\n3. Quỹ tổ chức kiểm tra, đánh giá và thành lập Hội đồng tư vấn để xem xét nguyên nhân, mức độ ảnh hưởng của rủi ro đến kết quả thực hiện hợp đồng và đề xuất việc miễn, giảm nghĩa vụ hoàn trả kinh phí hỗ trợ.\n\n4. Trên cơ sở kết quả đánh giá của Hội đồng tư vấn và các tài liệu có liên quan, Quỹ tổng hợp, trình cơ quan có thẩm quyền quyết định hỗ trợ xem xét, quyết định việc miễn, giảm nghĩa vụ hoàn trả kinh phí hỗ trợ. Trong thời hạn không quá 10 ngày làm việc kể từ ngày nhận đủ hồ sơ trình, cơ quan có thẩm quyền quyết định hỗ trợ xem xét, quyết định việc miễn, giảm nghĩa vụ hoàn trả kinh phí hỗ trợ.\n\n5. Căn cứ quyết định của cơ quan có thẩm quyền quyết định hỗ trợ, Quỹ thực hiện việc miễn, giảm nghĩa vụ hoàn trả kinh phí hỗ trợ và xử lý các nội dung có liên quan theo hợp đồng hỗ trợ.",
+      "best_child_sim": 0.6130370782199261
+    }
+  },
+  {
+    "question_id": "q13",
+    "question": "Nội dung hỗ trợ kết nối hệ sinh thái ĐMST với chuyên gia, nhà khoa học bao gồm hoạt động gì?",
+    "split": "dev",
+    "gold_page": 13,
+    "evidence_quote": "2. Nội dung hỗ trợ bao gồm:\na) Tư vấn, hướng dẫn doanh nghiệp và các tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số hoàn thiện hồ sơ theo quy định của pháp luật; hỗ trợ chuẩn bị tài liệu, minh chứng về quyền sở hữu hoặc quyền sử dụng hợp pháp đối với kết quả khoa học và công nghệ, công nghệ hoặc tài sản trí tuệ;",
+    "child_hit_1": false,
+    "child_hit_3": false,
+    "parent_hit_1": false,
+    "parent_hit_3": false,
+    "top_child": null,
+    "top_parent": null
+  },
+  {
+    "question_id": "q14",
+    "question": "Tổ chức được hưởng chính sách gì về gian hàng tại các sự kiện xúc tiến của Thành phố?",
+    "split": "dev",
+    "gold_page": 14,
+    "evidence_quote": "Được miễn phí gian hàng trưng bày sản phẩm khoa học và công nghệ tại các sự kiện",
+    "child_hit_1": false,
+    "child_hit_3": false,
+    "parent_hit_1": false,
+    "parent_hit_3": false,
+    "top_child": null,
+    "top_parent": null
+  },
+  {
+    "question_id": "q15",
+    "question": "Trong Mẫu số 01, tổ chức đề nghị hỗ trợ phải cam kết thực hiện đúng những quy định nào?",
+    "split": "dev",
+    "gold_page": 19,
+    "evidence_quote": "Tổ chức đề nghị hỗ trợ cam kết: 1. Các thông tin trong hồ sơ là trung thực, chính xác và chịu trách nhiệm trước pháp luật về nội dung kê khai. 2. Thực hiện đúng các quy định của Nghị quyết số 25/2026/NQ-HĐND và Quyết định của Ủy ban nhân dân",
+    "child_hit_1": false,
+    "child_hit_3": false,
+    "parent_hit_1": false,
+    "parent_hit_3": false,
+    "top_child": null,
+    "top_parent": null
+  },
+  {
+    "question_id": "q16",
+    "question": "Doanh nghiệp vay vốn tại Quỹ Đầu tư phát triển Thành phố được hưởng chính sách ưu đãi lãi suất như thế nào?",
+    "split": "test",
+    "gold_page": 14,
+    "evidence_quote": "lãi suất cho vay tối thiểu khi vay vốn tại Quỹ Đầu tư phát triển Thành phố để thực hiện các dự án đầu tư mới hạ tầng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số.",
+    "child_hit_1": false,
+    "child_hit_3": false,
+    "parent_hit_1": false,
+    "parent_hit_3": false,
+    "top_child": null,
+    "top_parent": null
+  },
+  {
+    "question_id": "q17",
+    "question": "Hồ sơ đề nghị hỗ trợ 100% chi phí gian hàng khi tham gia hội chợ, sự kiện công nghệ quốc tế gồm những tài liệu gì?",
+    "split": "test",
+    "gold_page": 14,
+    "evidence_quote": "a) Đơn đề nghị hỗ trợ (theo Mẫu số 07 tại Phụ lục ban hành kèm theo Quyết định này); b) Tài liệu chứng minh việc đăng ký và được chấp thuận tham gia triển lãm, hội chợ, sự kiện công nghệ quốc tế theo chương trình xúc tiến của Thành phố; c) Báo giá chi phí gian hàng của Ban tổ chức",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_22_k01",
+      "parent_id": "parent_dieu_22",
+      "page": 14,
+      "content": "[Điều 22. Trình tự, thủ tục hỗ trợ 100% chi phí gian hàng khi tham gia hội chợ, triển lãm công nghệ quốc tế theo chương trình xúc tiến của Thành phố]\n1. Doanh nghiệp khoa học và công nghệ, doanh nghiệp công nghệ cao, doanh nghiệp công nghệ số, doanh nghiệp có sản phẩm khoa học và công nghệ (đáp ứng điều kiện theo Điều 11 Nghị quyết số 25/2026/NQ-HĐND) có nhu cầu hỗ trợ gửi 01 bộ hồ sơ đến Quỹ, gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 07 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Tài liệu chứng minh việc đăng ký và được chấp thuận tham gia triển lãm, hội chợ, sự kiện công nghệ quốc tế theo chương trình xúc tiến của Thành phố;\n\nc) Báo giá chi phí gian hàng của Ban tổ chức (triển lãm, hội chợ, sự kiện công nghệ quốc tế).",
+      "similarity": 0.7497417371707931
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_22",
+      "title": "Điều 22. Trình tự, thủ tục hỗ trợ 100% chi phí gian hàng khi tham gia hội chợ, triển lãm công nghệ quốc tế theo chương trình xúc tiến của Thành phố",
+      "page_start": 14,
+      "page_end": 15,
+      "content": "Điều 22. Trình tự, thủ tục hỗ trợ 100% chi phí gian hàng khi tham gia hội chợ, triển lãm công nghệ quốc tế theo chương trình xúc tiến của Thành phố\n\n1. Doanh nghiệp khoa học và công nghệ, doanh nghiệp công nghệ cao, doanh nghiệp công nghệ số, doanh nghiệp có sản phẩm khoa học và công nghệ (đáp ứng điều kiện theo Điều 11 Nghị quyết số 25/2026/NQ-HĐND) có nhu cầu hỗ trợ gửi 01 bộ hồ sơ đến Quỹ, gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 07 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Tài liệu chứng minh việc đăng ký và được chấp thuận tham gia triển lãm, hội chợ, sự kiện công nghệ quốc tế theo chương trình xúc tiến của Thành phố;\n\nc) Báo giá chi phí gian hàng của Ban tổ chức (triển lãm, hội chợ, sự kiện công nghệ quốc tế).\n\n2. Trong thời hạn 05 ngày làm việc kể từ ngày nhận hồ sơ, Quỹ kiểm tra tính đầy đủ, hợp lệ của hồ sơ; trường hợp hồ sơ chưa đầy đủ hoặc chưa hợp lệ thì thông báo để tổ chức bổ sung, hoàn thiện.\n\n3. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Quỹ tổ chức thẩm định và ban hành Quyết định hỗ trợ.\n\n4. Quỹ ký hợp đồng hỗ trợ với tổ chức và thực hiện giải ngân kinh phí hỗ trợ sau khi tổ chức hoàn thành việc tham gia triển lãm, hội chợ, sự kiện công nghệ quốc tế, trên cơ sở báo cáo kết quả thực hiện và các chứng từ hợp pháp theo hợp đồng đã ký.\nChương IV TỔ CHỨC THỰC HIỆN",
+      "best_child_sim": 0.7497417371707931
+    }
+  },
+  {
+    "question_id": "q18",
+    "question": "Sở Khoa học và Công nghệ có trách nhiệm và vai trò gì trong việc triển khai Quyết định này?",
+    "split": "test",
+    "gold_page": 15,
+    "evidence_quote": "1. Là cơ quan đầu mối tham mưu Ủy ban nhân dân Thành phố tổ chức triển khai thực hiện Nghị quyết số 25/2026/NQ-HĐND và Quyết định này; chủ trì hướng dẫn, tuyên truyền, phổ biến, theo dõi, đôn đốc và phối hợp với các cơ quan, đơn vị liên quan tổ chức thực hiện các chính sách hỗ trợ theo quy định.",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_23_k01",
+      "parent_id": "parent_dieu_23",
+      "page": 15,
+      "content": "[Điều 23. Trách nhiệm của Sở Khoa học và Công nghệ]\n1. Là cơ quan đầu mối tham mưu Ủy ban nhân dân Thành phố tổ chức triển khai thực hiện Nghị quyết số 25/2026/NQ-HĐND và Quyết định này; chủ trì hướng dẫn, tuyên truyền, phổ biến, theo dõi, đôn đốc và phối hợp với các cơ quan, đơn vị liên quan tổ chức thực hiện các chính sách hỗ trợ theo quy định.",
+      "similarity": 0.6785367898241822
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_23",
+      "title": "Điều 23. Trách nhiệm của Sở Khoa học và Công nghệ",
+      "page_start": 15,
+      "page_end": 15,
+      "content": "Điều 23. Trách nhiệm của Sở Khoa học và Công nghệ\n\n1. Là cơ quan đầu mối tham mưu Ủy ban nhân dân Thành phố tổ chức triển khai thực hiện Nghị quyết số 25/2026/NQ-HĐND và Quyết định này; chủ trì hướng dẫn, tuyên truyền, phổ biến, theo dõi, đôn đốc và phối hợp với các cơ quan, đơn vị liên quan tổ chức thực hiện các chính sách hỗ trợ theo quy định.\n\n2. Ban hành và hướng dẫn sử dụng hệ thống biểu mẫu theo quy định tại Điều 5 Quyết định này trong thời hạn 30 ngày kể từ ngày Quyết định này có hiệu lực;\n\nsửa đổi, bổ sung biểu mẫu trong quá trình thực hiện khi cần thiết, bảo đảm phù hợp với Nghị quyết số 25/2026/NQ-HĐND và Quyết định này.\n\n3. Định kỳ hoặc đột xuất theo yêu cầu, tổng hợp, báo cáo Ủy ban nhân dân Thành phố tình hình, kết quả thực hiện chính sách hỗ trợ; trong đó có kết quả quyết định hỗ trợ thuộc thẩm quyền của Sở Khoa học và Công nghệ.\n\n4. Thực hiện các nhiệm vụ khác theo phân công của Ủy ban nhân dân Thành phố.",
+      "best_child_sim": 0.6785367898241822
+    }
+  },
+  {
+    "question_id": "q19",
+    "question": "Trách nhiệm của các sở, ban, ngành, cơ quan liên quan được quy định tại Điều nào trong Quyết định?",
+    "split": "test",
+    "gold_page": 16,
+    "evidence_quote": "Điều 26. Trách nhiệm của các cơ quan liên quan Các sở, ban, ngành, đơn vị thuộc Thành phố và các cơ quan, tổ chức có liên quan có trách nhiệm phối hợp với Sở Khoa học và Công nghệ",
+    "child_hit_1": true,
+    "child_hit_3": true,
+    "parent_hit_1": true,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_26_all",
+      "parent_id": "parent_dieu_26",
+      "page": 16,
+      "content": "Điều 26. Trách nhiệm của các cơ quan liên quan Các sở, ban, ngành, đơn vị thuộc Thành phố và các cơ quan, tổ chức có liên quan có trách nhiệm phối hợp với Sở Khoa học và Công nghệ trong quá trình tổ chức thực hiện, kiểm tra, giám sát và đánh giá hiệu quả thực hiện các chính sách hỗ trợ theo Nghị quyết và Quyết định này.",
+      "similarity": 0.6265959166863032
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_26",
+      "title": "Điều 26. Trách nhiệm của các cơ quan liên quan Các sở, ban, ngành, đơn vị thuộc Thành phố và các cơ quan, tổ chức có liên quan có trách nhiệm phối hợp với Sở Khoa học và Công nghệ trong quá trình tổ chức thực hiện, kiểm tra, giám sát và đánh giá hiệu quả thực hiện các chính sách hỗ trợ theo Nghị quyết và Quyết định này.",
+      "page_start": 16,
+      "page_end": 16,
+      "content": "Điều 26. Trách nhiệm của các cơ quan liên quan Các sở, ban, ngành, đơn vị thuộc Thành phố và các cơ quan, tổ chức có liên quan có trách nhiệm phối hợp với Sở Khoa học và Công nghệ trong quá trình tổ chức thực hiện, kiểm tra, giám sát và đánh giá hiệu quả thực hiện các chính sách hỗ trợ theo Nghị quyết và Quyết định này.",
+      "best_child_sim": 0.6265959166863032
+    }
+  },
+  {
+    "question_id": "q20",
+    "question": "Trong Mẫu số 02 (Thuyết minh đề xuất hỗ trợ), mục Giải pháp kỹ thuật, công nghệ bao gồm những nội dung gì?",
+    "split": "test",
+    "gold_page": 23,
+    "evidence_quote": "Giải pháp kỹ thuật, công nghệ - Công nghệ, thiết bị, giải pháp kỹ thuật dự kiến áp dụng; - Mức độ tiên tiến, đồng bộ; - Khả năng kết nối, tích hợp và mở rộng; - Yêu cầu về an toàn, an ninh, bảo mật dữ liệu (nếu có);",
+    "child_hit_1": false,
+    "child_hit_3": true,
+    "parent_hit_1": false,
+    "parent_hit_3": true,
+    "top_child": {
+      "chunk_id": "child_dieu_06_k03",
+      "parent_id": "parent_dieu_06",
+      "page": 4,
+      "content": "[Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ]\n3. Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị; xây dựng và vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng quy định tại khoản 4 Điều 6 Nghị quyết số 25/2026/NQ-HĐND, bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng minh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\n\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện nội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng (nếu đã thực hiện);\n\nđ) Các tài liệu khác có liên quan (nếu có).",
+      "similarity": 0.5574178465585049
+    },
+    "top_parent": {
+      "parent_id": "parent_dieu_06",
+      "title": "Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ",
+      "page_start": 3,
+      "page_end": 5,
+      "content": "Điều 6. Điều kiện, tiêu chí hỗ trợ và Hồ sơ đề nghị hỗ trợ\n\n1. Điều kiện và tiêu chí hỗ trợ được thực hiện theo quy định tại Điều 7 Nghị quyết số 25/2026/NQ-HĐND.\n\n2. Hồ sơ đề nghị hỗ trợ đầu tư mới, nâng cấp, chi phí vận hành hạ tầng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quy định tại khoản 1, khoản 2 và khoản 3 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 01 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh dự án, trong đó bao gồm phương án vận hành và dự toán kinh phí vận hành (nếu đề nghị hỗ trợ chi phí vận hành) (theo Mẫu số 02 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hồ sơ pháp lý của tổ chức đề nghị hỗ trợ (Giấy chứng nhận đăng ký doanh nghiệp/Quyết định thành lập/Giấy chứng nhận đăng ký tổ chức khoa học và công nghệ hoặc giấy tờ pháp lý khác có giá trị tương đương);\n\nd) Văn bản xác nhận không nợ thuế (của cơ quan Thuế) và không nợ đóng bảo hiểm xã hội (của cơ quan Bảo hiểm xã hội) tính đến thời điểm nộp hồ sơ;\nđ) Tài liệu chứng minh năng lực tài chính và khả năng bố trí vốn đối ứng (nếu thuộc trường hợp phải có vốn đối ứng);\n\ne) Các tài liệu khác có liên quan (nếu có).\n\n3. Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị; xây dựng và vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng quy định tại khoản 4 Điều 6 Nghị quyết số 25/2026/NQ-HĐND, bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định này);\n\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng minh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\n\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện nội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng (nếu đã thực hiện);\n\nđ) Các tài liệu khác có liên quan (nếu có).\n\n4. Hồ sơ đề nghị miễn phí sử dụng vị trí đặt thiết bị, cáp viễn thông tại hệ thống hạ tầng kỹ thuật phục vụ đô thị thông minh của Thành phố trong thời gian 02 năm (đối với tổ chức, doanh nghiệp triển khai theo hình thức xã hội hóa) quy định tại khoản 5 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 05 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Tài liệu liên quan việc tổ chức, doanh nghiệp triển khai đầu tư, lắp đặt thiết bị, cáp viễn thông (đối với trường hợp đã triển khai lắp đặt thiết bị, cáp viễn thông);\n\nc) Phương án đề xuất sử dụng vị trí hạ tầng kỹ thuật, trong đó nêu rõ vị trí, thời gian, danh mục thiết bị dự kiến lắp đặt (đối với trường hợp chưa triển khai lắp đặt thiết bị, cáp viễn thông).\n\nd) Các tài liệu khác có liên quan (nếu có).\n\n5. Hồ sơ đề nghị hỗ trợ chi phí vận hành Sàn Giao dịch công nghệ (do Thành phố phê duyệt đề án thành lập) quy định tại khoản 6 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\n\na) Đơn đề nghị hỗ trợ (theo Mẫu số 06 tại Phụ lục ban hành kèm theo Quyết định này);\n\nb) Đề án/phương án quản lý, vận hành Sàn Giao dịch công nghệ và kết quả dự kiến đạt được hằng năm (đối với 03 năm đầu tiên);\n\nc) Dự toán chi tiết kinh phí quản lý, vận hành Sàn Giao dịch công nghệ (03 năm đầu tiên);\n\nd) Bảng kê kèm theo hồ sơ, chứng từ minh chứng chi phí vận hành Sàn Giao dịch công nghệ (nếu có);\n\nđ) Các tài liệu khác có liên quan (nếu có).",
+      "best_child_sim": 0.5574178465585049
+    }
+  }
+]
