@@ -650,6 +650,19 @@ class DemoServerHandler(BaseHTTPRequestHandler):
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.end_headers()
             self.wfile.write(json.dumps(BENCHMARK_QS, ensure_ascii=False).encode("utf-8"))
+        elif self.path.startswith("/api/pdf"):
+            pdf_path = STARTER_DIR / "data" / "quy_dinh_ha_tang_khcn_hanoi_2026.pdf"
+            if pdf_path.exists():
+                self.send_response(200)
+                self.send_header("Content-Type", "application/pdf")
+                self.send_header("Content-Disposition", "inline; filename=quy_dinh_ha_tang_khcn_hanoi_2026.pdf")
+                self.end_headers()
+                with open(pdf_path, "rb") as f:
+                    self.wfile.write(f.read())
+            else:
+                self.send_response(404)
+                self.end_headers()
+                self.wfile.write(b"PDF Not Found")
         elif self.path.startswith("/api/query"):
             # Live search endpoint against pgvector
             query_params = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
