@@ -233,42 +233,42 @@ html_content = """<!DOCTYPE html>
         <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
           <div class="flex items-center justify-between">
             <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Hit@3 Dev Benchmark</span>
-            <span class="p-1.5 rounded-lg bg-blue-100 text-blue-700 font-bold text-xs">80.0%</span>
+            <span class="p-1.5 rounded-lg bg-emerald-100 text-emerald-700 font-bold text-xs">86.7%</span>
           </div>
           <div class="mt-3 flex items-baseline space-x-2">
-            <span class="text-3xl font-extrabold text-slate-900">12/15</span>
+            <span class="text-3xl font-extrabold text-slate-900">13/15</span>
             <span class="text-xs text-slate-400">câu trong Top-3</span>
           </div>
           <div class="mt-2 text-xs text-slate-600">
-            Cả 3 chiến lược đều bao phủ 80% câu hỏi trong Top-3, nhưng Strat B/C đưa chính xác lên Rank 1.
+            Chiến lược B & C bao phủ <strong>86.67%</strong> câu hỏi trong Top-3 (tăng từ 12 lên 13 câu).
           </div>
         </div>
 
         <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
           <div class="flex items-center justify-between">
-            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Độ Mạch Lạc (Coherence)</span>
-            <span class="p-1.5 rounded-lg bg-emerald-100 text-emerald-700 font-bold text-xs">+111%</span>
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Hit@1 Test Benchmark</span>
+            <span class="p-1.5 rounded-lg bg-purple-100 text-purple-700 font-bold text-xs">60.0%</span>
+          </div>
+          <div class="mt-3 flex items-baseline space-x-2">
+            <span class="text-3xl font-extrabold text-slate-900">3/5</span>
+            <span class="text-xs text-slate-400">vs 1/5 (Strat A)</span>
+          </div>
+          <div class="mt-2 text-xs text-slate-600">
+            Tăng gấp 3 lần độ chính xác ở Rank 1 trên tập test ẩn holdout.
+          </div>
+        </div>
+
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Độ Mạch Lạc & Số Chunk</span>
+            <span class="p-1.5 rounded-lg bg-emerald-100 text-emerald-700 font-bold text-xs">120 Chunks</span>
           </div>
           <div class="mt-3 flex items-baseline space-x-2">
             <span class="text-3xl font-extrabold text-slate-900">1.90 <span class="text-base font-normal text-slate-400">/ 2.0</span></span>
-            <span class="text-xs text-slate-400">vs 0.90 (Strat A)</span>
+            <span class="text-xs text-slate-400">max ≤ 800 chars</span>
           </div>
           <div class="mt-2 text-xs text-slate-600">
-            100% chunk của Strat B/C giữ trọn vẹn chủ ngữ, vị ngữ và số thứ tự điểm/khoản.
-          </div>
-        </div>
-
-        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Tiết Kiệm Lưu Trữ & Chi Phí</span>
-            <span class="p-1.5 rounded-lg bg-purple-100 text-purple-700 font-bold text-xs">-80.6% Chunks</span>
-          </div>
-          <div class="mt-3 flex items-baseline space-x-2">
-            <span class="text-3xl font-extrabold text-slate-900">40</span>
-            <span class="text-xs text-slate-400">chunks vs 206 chunks</span>
-          </div>
-          <div class="mt-2 text-xs text-slate-600">
-            Thời gian nạp giảm từ <strong>21.76s</strong> xuống <strong>4.62s</strong> (nhanh hơn 4.7 lần).
+            Tách theo cấu trúc điều khoản pháp lý, độ dài trung bình 595 ký tự.
           </div>
         </div>
 

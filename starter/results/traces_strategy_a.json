@@ -107,7 +107,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "bieu_mau"
         },
-        "score": 0.4841
+        "score": 0.4851
       }
     ]
   },
@@ -247,7 +247,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "quy_dinh"
         },
-        "score": 0.6842
+        "score": 0.6846
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p05_c003",
@@ -261,7 +261,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "quy_dinh"
         },
-        "score": 0.5887
+        "score": 0.5891
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p05_c005",
@@ -275,7 +275,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "quy_dinh"
         },
-        "score": 0.5835
+        "score": 0.5833
       }
     ]
   },
@@ -331,7 +331,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "quy_dinh"
         },
-        "score": 0.5205
+        "score": 0.5204
       }
     ]
   },
@@ -359,7 +359,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "bieu_mau"
         },
-        "score": 0.619
+        "score": 0.618
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p23_c004",
@@ -485,7 +485,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "bieu_mau"
         },
-        "score": 0.6003
+        "score": 0.6002
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p05_c006",
@@ -499,7 +499,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "quy_dinh"
         },
-        "score": 0.5931
+        "score": 0.5929
       }
     ]
   },
@@ -597,7 +597,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "bieu_mau"
         },
-        "score": 0.5831
+        "score": 0.5826
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p29_c002",
@@ -751,7 +751,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "bieu_mau"
         },
-        "score": 0.5877
+        "score": 0.5874
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p40_c004",
@@ -919,7 +919,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "bieu_mau"
         },
-        "score": 0.6189
+        "score": 0.6206
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p14_c004",
@@ -933,7 +933,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "quy_dinh"
         },
-        "score": 0.5967
+        "score": 0.5969
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p14_c005",
@@ -989,7 +989,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "quy_dinh"
         },
-        "score": 0.6065
+        "score": 0.6066
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p16_c002",
@@ -1003,7 +1003,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "quy_dinh"
         },
-        "score": 0.5895
+        "score": 0.5896
       }
     ]
   },
@@ -1101,7 +1101,7 @@
           "authority": "ubnd_hanoi",
           "document_type": "bieu_mau"
         },
-        "score": 0.5351
+        "score": 0.535
       },
       {
         "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p18_c002",
