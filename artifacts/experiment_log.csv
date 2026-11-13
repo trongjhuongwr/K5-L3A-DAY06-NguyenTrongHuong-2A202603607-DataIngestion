@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"source,page,section",no,openai/text-embedding-3-small,Fixed-size chunking baseline,5/15,12/15,1/5,5/5,Baseline fixed cut
+B,paragraph_clause,800,0,"source,page,section",no,openai/text-embedding-3-small,Paragraph boundaries preserve clause semantics,11/15,12/15,2/5,4/5,Structural chunking
+C,paragraph_clause,800,0,"source,page,section",yes,openai/text-embedding-3-small,Metadata filter removes cross-section noise,11/15,12/15,2/5,4/5,Structural + section filter

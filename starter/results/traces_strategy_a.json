@@ -1,0 +1,1122 @@
+[
+  {
+    "question_id": "q01",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Quyết định quy định trình tự, thủ tục thực hiện các chính sách gì trên địa bàn thành phố Hà Nội?",
+    "filter_applied": null,
+    "gold_page": 2,
+    "evidence_quote": "Quyết định này quy định trình tự, thủ tục thực hiện các chính sách ưu đãi, hỗ trợ phát triển hạ tầng và tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số trên địa bàn thành phố Hà Nội",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p01_c005",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 1,
+        "content": "ông nghệ, đổi mới sáng tạo và chuyển đổi số trên địa bàn thành \nphố Hà Nội;\nỦy ban nhân dân thành phố Hà Nội ban hành Quy định trình tự, thủ tục hỗ \ntrợ phát triển hạ tầng và tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, \nđổi mới sáng tạo và chuyển đổi số trên địa bàn thành phố Hà Nội.",
+        "metadata": {
+          "year": 2026,
+          "section": "quy_dinh_chung",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6264
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p02_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 2,
+        "content": "2\nChương I\nQUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh\nQuyết định này quy định trình tự, thủ tục thực hiện các chính sách ưu đãi, hỗ \ntrợ phát triển hạ tầng và tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, \nđổi mới sáng tạo và chuyển đổi số trên địa bàn thành phố Hà Nội theo Nghị quyết số \n25/2026/NQ-HĐND ngày 02 tháng 6 năm 2026 của Hội đồng nhân dân thành phố \nHà Nội (sau đây gọi tắt là Nghị quyết số 25/2026/NQ-HĐND), bao gồm:\n1. Trình tự, thủ tục thực hiện các nội dung hỗ trợ phát tr",
+        "metadata": {
+          "year": 2026,
+          "section": "quy_dinh_chung",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6197
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p15_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 15,
+        "content": "Điều \n5 Quyết định này trong thời hạn 30 ngày kể từ ngày Quyết định này có hiệu lực; \nsửa đổi, bổ sung biểu mẫu trong quá trình thực hiện khi cần thiết, bảo đảm phù \nhợp với Nghị quyết số 25/2026/NQ-HĐND và Quyết định này.\n3. Định kỳ hoặc đột xuất theo yêu cầu, tổng hợp, báo cáo Ủy ban nhân dân \nThành phố tình hình, kết quả thực hiện chính sách hỗ trợ; trong đó có kết quả \nquyết định hỗ trợ thuộc thẩm quyền của Sở Khoa học và Công nghệ. \n4. Thực hiện các nhiệm vụ khác theo phân công của Ủy ban n",
+        "metadata": {
+          "year": 2026,
+          "section": "to_chuc_thuc_hien",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5868
+      }
+    ]
+  },
+  {
+    "question_id": "q02",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Đối tượng áp dụng tại Điều 2 của Quyết định bao gồm những tổ chức nào?",
+    "filter_applied": null,
+    "gold_page": 2,
+    "evidence_quote": "1. Quỹ Phát triển khoa học, công nghệ và đổi mới sáng tạo của thành phố Hà Nội (sau đây gọi tắt là Quỹ), các cơ quan nhà nước có chức năng, nhiệm vụ tổ chức thực hiện các chính sách hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND.",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p02_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 2,
+        "content": "số 25/2026/NQ-HĐND.\n2. Các tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng \ntạo và chuyển đổi số thuộc đối tượng được thụ hưởng chính sách hỗ trợ theo Nghị \nquyết số 25/2026/NQ-HĐND. \n3. Các tổ chức, cá nhân tham gia thẩm định, tư vấn, kiểm tra, giám sát, đánh giá, \nnghiệm thu và các hoạt động khác có liên quan. \n4. Các cơ quan, tổ chức, cá nhân khác có liên quan.\nĐiều 3. Nguyên tắc thực hiện\nViệc thực hiện các chính sách ưu đãi, hỗ trợ tuân thủ các nguyên tắc quy định \ntại",
+        "metadata": {
+          "year": 2026,
+          "section": "quy_dinh_chung",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5126
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p02_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 2,
+        "content": "rợ, xem xét chấp nhận rủi ro và các nội dung khác có liên quan trong \nquá trình thực hiện chính sách hỗ trợ.\n4. Trách nhiệm của các cơ quan, tổ chức, cá nhân có liên quan trong việc tổ \nchức thực hiện Quyết định này.\nĐiều 2. Đối tượng áp dụng\n1. Quỹ Phát triển khoa học, công nghệ và đổi mới sáng tạo của thành phố Hà \nNội (sau đây gọi tắt là Quỹ), các cơ quan nhà nước có chức năng, nhiệm vụ tổ chức \nthực hiện các chính sách hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND.\n2. Các tổ chức có hoạt động tr",
+        "metadata": {
+          "year": 2026,
+          "section": "quy_dinh_chung",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.511
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p37_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 37,
+        "content": "...........................................................................................\n2. Kết quả, hiệu quả nổi bật:\n.....................................................................................................................................\n3. Kế hoạch hoạt động trong kỳ đề nghị hỗ trợ:\n.....................................................................................................................................\nV. CAM KẾT\nTổ chức đề nghị hỗ trợ cam kết:\n1. Hồ sơ và các tài ",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.4841
+      }
+    ]
+  },
+  {
+    "question_id": "q03",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "liet_ke",
+    "question": "Hồ sơ đề nghị hỗ trợ phát triển hạ tầng quy định đơn đề nghị và thuyết minh dự án theo những mẫu nào?",
+    "filter_applied": null,
+    "gold_page": 3,
+    "evidence_quote": "Mẫu số 01 tại Phụ lục ban hành kèm theo Quyết định này); b) Thuyết minh dự án, trong đó bao gồm phương án vận hành và dự toán kinh phí vận hành (nếu đề nghị hỗ trợ chi phí vận hành) (theo Mẫu số 02",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p04_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 4,
+        "content": "theo Quyết \nđịnh này);\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành \nkèm theo Quyết định này);\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng \nminh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện \nnội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý \nchất lượng (nếu đã thực hiện);\nđ) Các tài liệu khác có liên quan (nếu có).\n4. Hồ sơ đề",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6507
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p03_c005",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 3,
+        "content": "hực hiện theo quy định tại Điều 7 Nghị \nquyết số 25/2026/NQ-HĐND.\n2. Hồ sơ đề nghị hỗ trợ đầu tư mới, nâng cấp, chi phí vận hành hạ tầng khoa \nhọc, công nghệ, đổi mới sáng tạo và chuyển đổi số quy định tại khoản 1, khoản 2 và \nkhoản 3 Điều 6 Nghị quyết số 25/2026/NQ-HĐND bao gồm:\na) Đơn đề nghị hỗ trợ (theo Mẫu số 01 tại Phụ lục ban hành kèm theo Quyết \nđịnh này);\nb) Thuyết minh dự án, trong đó bao gồm phương án vận hành và dự toán kinh \nphí vận hành (nếu đề nghị hỗ trợ chi phí vận hành) (theo M",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5928
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p11_c005",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 11,
+        "content": " nộp hồ sơ đánh giá kết quả thực hiện theo quy định;\nđ) Tổ chức được hỗ trợ đề nghị chấm dứt hợp đồng.\n2. Hồ sơ đề nghị chấm dứt thực hiện hợp đồng hỗ trợ:\na) Văn bản đề nghị chấm dứt thực hiện hợp đồng, trong đó nêu rõ lý do, thời \nđiểm đề nghị chấm dứt và đề xuất xử lý các quyền, nghĩa vụ có liên quan;\nb) Báo cáo kết quả thực hiện theo hợp đồng hỗ trợ, trong đó thể hiện kết quả đã \nthực hiện, kinh phí đã sử dụng, kinh phí chưa sử dụng, nghĩa vụ phải hoàn trả (nếu \ncó) và các hồ sơ, tài liệu mi",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5889
+      }
+    ]
+  },
+  {
+    "question_id": "q04",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị phải sử dụng các biểu mẫu nào?",
+    "filter_applied": null,
+    "gold_page": 4,
+    "evidence_quote": "Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết định này); b) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành kèm theo Quyết định này);",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p30_c005",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 30,
+        "content": " thiết phải thực hiện kiểm định, hiệu chuẩn trang thiết bị hoặc xây dựng, \nvận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng:.............................\n3. Mục tiêu\nNêu mục tiêu và kết quả cần đạt được: .........................................................................\nIII. NỘI DUNG THỰC HIỆN\n1. Trường hợp đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.6238
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p04_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 4,
+        "content": "4\nđ) Tài liệu chứng minh năng lực tài chính và khả năng bố trí vốn đối ứng (nếu \nthuộc trường hợp phải có vốn đối ứng);\ne) Các tài liệu khác có liên quan (nếu có).\n3. Hồ sơ đề nghị hỗ trợ chi phí kiểm định, hiệu chuẩn trang thiết bị; xây dựng \nvà vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng quy \nđịnh tại khoản 4 Điều 6 Nghị quyết số 25/2026/NQ-HĐND, bao gồm:\na) Đơn đề nghị hỗ trợ (theo Mẫu số 03 tại Phụ lục ban hành kèm theo Quyết \nđịnh này);\nb) Thuyết minh nội dung đề ",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6049
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p04_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 4,
+        "content": "theo Quyết \nđịnh này);\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành \nkèm theo Quyết định này);\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng \nminh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện \nnội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý \nchất lượng (nếu đã thực hiện);\nđ) Các tài liệu khác có liên quan (nếu có).\n4. Hồ sơ đề",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5913
+      }
+    ]
+  },
+  {
+    "question_id": "q05",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Sở Khoa học và Công nghệ có thời hạn bao nhiêu ngày làm việc để kiểm tra tính đầy đủ, hợp lệ của hồ sơ hỗ trợ phát triển hạ tầng?",
+    "filter_applied": null,
+    "gold_page": 5,
+    "evidence_quote": "Trong thời hạn không quá 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Khoa học và Công nghệ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Sở Khoa học và Công nghệ thông báo cho tổ chức có nhu cầu nhận hỗ trợ về tính hợp lệ của hồ sơ; hoặc yêu cầu bổ sung, hoàn thiện hồ sơ",
+    "hit_1": true,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p05_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 5,
+        "content": "h đầy đủ, hợp lệ của hồ sơ\nTrong thời hạn không quá 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở \nKhoa học và Công nghệ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Sở Khoa học và \nCông nghệ thông báo cho tổ chức có nhu cầu nhận hỗ trợ về tính hợp lệ của hồ \nsơ; hoặc yêu cầu bổ sung, hoàn thiện hồ sơ theo quy định; hoặc không tiếp tục \nxem xét hồ sơ.\n3. Thẩm định hồ sơ đề nghị hỗ trợ\na) Trong thời hạn không quá 15 ngày làm việc kể từ ngày tiếp nhận hồ sơ \nhợp lệ, Sở Khoa học và Công nghệ thành lập",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6842
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p05_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 5,
+        "content": " hồ sơ \nhợp lệ, Sở Khoa học và Công nghệ thành lập và tổ chức họp Hội đồng tư vấn theo \nquy định tại Điều 8 Quyết định này; lấy ý kiến bằng văn bản của cơ quan, tổ chức \ncó liên quan hoặc có thể tiến hành khảo sát thực tế để xác minh thông tin hồ sơ \ntrong trường hợp cần thiết.\nb) Trường hợp hồ sơ cần bổ sung, làm rõ hoặc giải trình, Sở Khoa học và \nCông nghệ thông báo để tổ chức hoàn thiện hồ sơ trong thời hạn không quá 15 \nngày làm việc kể từ ngày nhận được yêu cầu của Sở. \nc) Trường hợp hồ sơ",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5887
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p05_c005",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 5,
+        "content": " được Hội đồng tư vấn đánh giá đạt, Sở Khoa học và \nCông nghệ thông báo để tổ chức có nhu cầu nhận hỗ trợ biết và hoàn thiện hồ sơ \ntheo kết luận của Hội đồng (nếu có), thời hạn hoàn thiện hồ sơ không quá 07 ngày \nlàm việc kể từ ngày nhận được yêu cầu của Sở. Trong thời gian 05 ngày làm việc \nkể từ ngày nhận được đầy đủ hồ sơ hoàn thiện, Sở Khoa học và Công nghệ tổng \nhợp kết quả thẩm định và thực hiện theo quy định tại khoản 4 Điều này.\n4. Quyết định hỗ trợ \na) Đối với trường hợp có mức kinh ph",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5835
+      }
+    ]
+  },
+  {
+    "question_id": "q06",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Hội đồng tư vấn xét duyệt hồ sơ có số lượng thành viên là bao nhiêu và gồm những ai?",
+    "filter_applied": null,
+    "gold_page": 7,
+    "evidence_quote": "từ 07 đến 11 thành viên, bao gồm Chủ tịch Hội đồng, Phó Chủ tịch Hội đồng, các Ủy viên, Thư ký hành chính và các thành viên khác do người có thẩm quyền quyết định trên cơ sở tính chất, nội dung xem xét.",
+    "hit_1": true,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p07_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 7,
+        "content": "heo quy định tại Quyết định này.\n2. Tổ chức của Hội đồng tư vấn\na) Hội đồng tư vấn có số lượng thành viên là số lẻ, từ 07 đến 11 thành viên, bao \ngồm Chủ tịch Hội đồng, Phó Chủ tịch Hội đồng, các Ủy viên, Thư ký hành chính và \ncác thành viên khác do người có thẩm quyền quyết định trên cơ sở tính chất, nội dung \nxem xét. Hội đồng tư vấn thực hiện việc thẩm định, đánh giá hồ sơ đề nghị hỗ trợ hoặc \nđánh giá, nghiệm thu kết quả thực hiện hỗ trợ phải có ít nhất 02 Ủy viên phản biện.\nb) Thành viên Hộ",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.65
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p07_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 7,
+        "content": " có ít nhất 02 Ủy viên phản biện.\nb) Thành viên Hội đồng tư vấn bao gồm các chuyên gia, nhà khoa học, doanh \nnhân, đại diện Sở Khoa học và Công nghệ, đại diện Quỹ và đại diện các cơ quan, tổ \nchức có liên quan.\nc) Các chuyên gia, nhà khoa học, doanh nhân là thành viên Hội đồng không \nthuộc tổ chức đề nghị hỗ trợ; có trình độ chuyên môn hoặc kinh nghiệm phù hợp với \nnội dung được xem xét.\n3. Trách nhiệm của Hội đồng tư vấn\na) Thẩm định, đánh giá hồ sơ đề nghị hỗ trợ; tham gia giám sát; nghiệm thu",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6139
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p07_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 7,
+        "content": "ồ sơ đề nghị hỗ trợ; tham gia giám sát; nghiệm thu kết \nquả thực hiện; \nb) Đề xuất việc tiếp tục hoặc chấm dứt hỗ trợ, thu hồi, hoàn trả kinh phí hỗ trợ, \nchấp nhận rủi ro và các nội dung khác theo quy định tại Quyết định này.\n4. Nguyên tắc hoạt động của Hội đồng tư vấn\nThực hiện theo khoản 4 Điều 9 Nghị quyết số 25/2026/NQ-HĐND.\n5. Mức chi cho Hội đồng tư vấn: \nThực hiện theo quy định tại Phụ lục I ban hành kèm theo Nghị quyết số \n25/2026/NQ-HĐND.\nĐiều 9. Ký kết hợp đồng hỗ trợ và giải ngân kin",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5205
+      }
+    ]
+  },
+  {
+    "question_id": "q07",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "so_lieu",
+    "question": "Trách nhiệm duy trì vận hành hạ tầng sau hỗ trợ được quy định tối thiểu trong bao lâu?",
+    "filter_applied": null,
+    "gold_page": 8,
+    "evidence_quote": "trách nhiệm duy trì vận hành hạ tầng sau hỗ trợ tối thiểu 5 năm; đ) Chế độ báo cáo, kiểm tra, giám sát, nghiệm thu;",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p21_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 21,
+        "content": "uy trì hoạt động\nLàm rõ:\n- Mô hình tổ chức quản lý, vận hành\n- Đơn vị quản lý, vận hành.\n- Nhân lực quản lý, vận hành;\n- Phương thức khai thác, cung cấp sản phẩm, dịch vụ;\n- Nguồn kinh phí bảo đảm vận hành;\n- Phương án bảo trì, bảo dưỡng, nâng cấp;\n- Phương án bảo đảm hoạt động ổn định, liên tục;\n- Phương án duy trì hoạt động tối thiểu 05 năm sau khi kết thúc thời gian hỗ trợ.\n5. Phương án chia sẻ, sử dụng chung",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.619
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p23_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 23,
+        "content": "h, duy trì hạ tầng sau thời gian được hỗ trợ.",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.604
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p08_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 8,
+        "content": "8\nd) Quyền và nghĩa vụ của các bên, trách nhiệm duy trì vận hành hạ tầng sau hỗ \ntrợ tối thiểu 5 năm;\nđ) Chế độ báo cáo, kiểm tra, giám sát, nghiệm thu;\ne) Điều kiện sửa đổi, bổ sung, tạm dừng, chấm dứt hợp đồng; thu hồi và hoàn \ntrả kinh phí hỗ trợ theo quy định;\ng) Trách nhiệm do vi phạm hợp đồng;\nh) Các nội dung khác theo quy định của pháp luật.\n4. Kinh phí hỗ trợ được giải ngân theo hợp đồng hỗ trợ và kết quả đánh giá \nviệc thực hiện hợp đồng theo quy định tại Quyết định này.\nĐiều 10. Kiểm t",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5921
+      }
+    ]
+  },
+  {
+    "question_id": "q08",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "dinh_ky",
+    "question": "Việc kiểm tra, giám sát định kỳ hợp đồng hỗ trợ được thực hiện với tần suất như thế nào?",
+    "filter_applied": null,
+    "gold_page": 8,
+    "evidence_quote": "Việc kiểm tra, giám sát được thực hiện theo định kỳ tối thiểu 01 lần/năm hoặc theo các mốc tiến độ, kết quả đầu ra quy định trong hợp đồng hỗ trợ.",
+    "hit_1": true,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p08_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 8,
+        "content": " theo quy định tại Quyết định này.\nĐiều 10. Kiểm tra, giám sát việc thực hiện hỗ trợ \n1. Thời điểm kiểm tra, giám sát\nViệc kiểm tra, giám sát được thực hiện theo định kỳ tối thiểu 01 lần/năm hoặc \ntheo các mốc tiến độ, kết quả đầu ra quy định trong hợp đồng hỗ trợ. Trong một số \ntrường hợp theo yêu cầu quản lý và biện pháp quản trị rủi ro, Quỹ tiến hành kiểm tra, \ngiám sát đột xuất. Kết quả kiểm tra, giám sát là căn cứ để xem xét việc tiếp tục giải \nngân kinh phí hỗ trợ, điều chỉnh hợp đồng hoặc",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6643
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p08_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 8,
+        "content": "ải \nngân kinh phí hỗ trợ, điều chỉnh hợp đồng hoặc xử lý theo quy định tại Điều 13 và \nĐiều 14 Quyết định này.\n2. Phương thức kiểm tra, giám sát\na) Việc kiểm tra, giám sát được thực hiện theo phương thức trực tiếp, trực tuyến \nhoặc kết hợp hai phương thức trên;\nb) Quỹ thành lập Hội đồng tư vấn theo quy định tại Điều 8 Quyết định này và \ntiến hành kiểm tra, giám sát thực tế để đánh giá kết quả thực hiện hợp đồng hỗ trợ.\n3. Hồ sơ phục vụ kiểm tra, giám sát bao gồm:\na) Quyết định hỗ trợ của cơ quan",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6219
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p15_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 15,
+        "content": "ỗ trợ đã ký kết và kết quả kiểm tra, giám sát, đánh giá, \nnghiệm thu theo quy định tại Quyết định này.\n3. Tổ chức kiểm tra, giám sát định kỳ hoặc đột xuất việc thực hiện các nội \ndung được hỗ trợ; đánh giá tiến độ, kết quả thực hiện, việc sử dụng kinh phí hỗ \ntrợ và việc thực hiện các cam kết của tổ chức được hỗ trợ.\n4. Tổ chức đánh giá, xác nhận kết quả thực hiện làm căn cứ giải ngân, tiếp \ntục hỗ trợ, điều chỉnh hỗ trợ, nghiệm thu kết quả thực hiện hoặc xử lý các nội \ndung có liên quan.\n5. Phá",
+        "metadata": {
+          "year": 2026,
+          "section": "to_chuc_thuc_hien",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6204
+      }
+    ]
+  },
+  {
+    "question_id": "q09",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Việc điều chỉnh hợp đồng hỗ trợ có được làm tăng tổng mức kinh phí hỗ trợ từ ngân sách Thành phố không?",
+    "filter_applied": null,
+    "gold_page": 9,
+    "evidence_quote": "tổng mức kinh phí hỗ trợ từ ngân sách Thành phố.",
+    "hit_1": false,
+    "hit_3": false,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p09_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 9,
+        "content": "9\nĐiều 11. Điều chỉnh hợp đồng hỗ trợ\n1. Trong quá trình thực hiện hợp đồng hỗ trợ, trường hợp cần phải điều chỉnh \nhợp đồng hỗ trợ, tổ chức được nhận hỗ trợ có văn bản đề nghị gửi Quỹ, trong đó nêu \nrõ nội dung đề nghị điều chỉnh, lý do, sự cần thiết, ảnh hưởng của việc điều chỉnh \nđối với mục tiêu, tiến độ, kết quả đầu ra và hiệu quả của nội dung được hỗ trợ kèm \ntheo tài liệu giải trình và các hồ sơ có liên quan. \n2. Việc điều chỉnh hợp đồng hỗ trợ không được làm tăng tổng mức kinh phí hỗ \ntr",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6548
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p40_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 40,
+        "content": "điều kiện hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND và Quyết định \ncủa Ủy ban nhân dân Thành phố.\n3. Chi phí đề nghị hỗ trợ là chi phí gian hàng thực tế, hợp pháp và không đề nghị, \nnhận hỗ trợ trùng lặp từ ngân sách nhà nước cho cùng một nội dung chi.\n4. Tham gia triển lãm, hội chợ, sự kiện công nghệ quốc tế theo đúng nội dung đã đăng \nký; cung cấp đầy đủ báo cáo kết quả thực hiện, hóa đơn, chứng từ và các tài liệu có liên \nquan làm căn cứ giải ngân kinh phí hỗ trợ.\n5. Hoàn trả kinh phí hỗ trợ ",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.6003
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p05_c006",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 5,
+        "content": " định hỗ trợ \na) Đối với trường hợp có mức kinh phí hỗ trợ từ ngân sách Thành phố không \nquá 20 tỷ đồng cho một hồ sơ đề nghị hỗ trợ, Ủy ban nhân dân Thành phố phân \ncấp cho Sở Khoa học và Công nghệ xem xét, quyết định hỗ trợ. Sở Khoa học và \nCông nghệ có trách nhiệm ban hành quyết định hỗ trợ trong thời hạn không quá \n10 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hoàn thiện.\nb) Đối với trường hợp có mức kinh phí hỗ trợ từ ngân sách Thành phố trên \n20 tỷ đồng cho một hồ sơ đề nghị hỗ trợ, S",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5931
+      }
+    ]
+  },
+  {
+    "question_id": "q10",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "nghiem_thu",
+    "question": "Kết quả đánh giá, nghiệm thu thực hiện hợp đồng hỗ trợ được xếp loại theo các mức nào?",
+    "filter_applied": null,
+    "gold_page": 10,
+    "evidence_quote": "Kết quả nghiệm thu được xếp loại theo một trong các mức sau: a) Đạt; b) Không đạt.",
+    "hit_1": true,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p10_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 10,
+        "content": "10\nlập và tổ chức họp Hội đồng tư vấn đánh giá, nghiệm thu kết quả thực hiện theo hợp đồng.\n5. Nội dung đánh giá, nghiệm thu bao gồm:\na) Mức độ hoàn thành theo hợp đồng hỗ trợ;\nb) Điều kiện xem xét áp dụng cơ chế chấp nhận rủi ro (nếu có).\n6. Kết quả nghiệm thu được xếp loại theo một trong các mức sau:\na) Đạt;\nb) Không đạt. \n7. Kết quả đánh giá, nghiệm thu được lập thành Biên bản nghiệm thu và là căn \ncứ để:\na) Giải ngân kinh phí hỗ trợ còn lại;\nb) Chấm dứt và thanh lý hợp đồng hỗ trợ sau khi ho",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.652
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p09_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 9,
+        "content": "kết quả đánh giá quy định tại khoản 5 Điều này, Quỹ xem xét, quyết \nđịnh việc điều chỉnh hợp đồng hỗ trợ (trong thời hạn không quá 30 ngày kể từ ngày \nnhận được hồ sơ đầy đủ, hợp lệ). Quỹ báo cáo kết quả thực hiện với Ủy ban nhân \ndân Thành phố và Sở Khoa học và Công nghệ. \nĐiều 12. Đánh giá, nghiệm thu kết quả thực hiện hợp đồng hỗ trợ\n1. Trong thời hạn thực hiện hợp đồng hỗ trợ hoặc thời gian được gia hạn (nếu \ncó), tổ chức được hỗ trợ có trách nhiệm gửi hồ sơ đề nghị nghiệm thu đến Quỹ. \n2. H",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.615
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p06_c006",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 6,
+        "content": "số lượng hợp đồng tư vấn; sản \nphẩm đầu ra trực tiếp đạt tối thiểu 50% chỉ tiêu về số lượng sáng chế, giải pháp \nhữu ích được đăng ký bảo hộ, sản phẩm công nghệ được thương mại hóa, chuyển \ngiao hoặc số lượng tổ chức được ươm tạo thành công.\nCác tiêu chí về mức độ tiếp cận xã hội, hiệu quả kinh tế và sản phẩm đầu ra \ntrực tiếp được áp dụng phù hợp với loại hình, tính chất của hạ tầng được hỗ trợ.\nđ) Trường hợp kết quả đánh giá Đạt, Quỹ tiếp tục thực hiện giải ngân kinh \nphí hỗ trợ vận hành năm t",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6074
+      }
+    ]
+  },
+  {
+    "question_id": "q11",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "che_tai",
+    "question": "Hậu quả pháp lý khi tổ chức sử dụng kinh phí hỗ trợ sai mục đích là gì?",
+    "filter_applied": null,
+    "gold_page": 10,
+    "evidence_quote": "dừng hỗ trợ, thu hồi toàn bộ hoặc một phần kinh phí hỗ trợ theo quy định tại Điều 13 Quyết định này;",
+    "hit_1": false,
+    "hit_3": false,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p15_c006",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 15,
+        "content": "inh phí hỗ trợ đúng mục đích, đúng đối tượng, bảo đảm \nhiệu quả, tiết kiệm và tuân thủ quy định của pháp luật.\n2. Thực hiện đầy đủ các nội dung đã cam kết trong hồ sơ đề nghị hỗ trợ, hợp \nđồng hỗ trợ và các văn bản có liên quan.\n3. Duy trì hoạt động, khai thác hiệu quả hạ tầng được hỗ trợ; thực hiện các",
+        "metadata": {
+          "year": 2026,
+          "section": "to_chuc_thuc_hien",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5917
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p32_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 32,
+        "content": "pháp luật.\n2. Nội dung và chi phí đề nghị hỗ trợ thuộc phạm vi hỗ trợ theo Nghị quyết số \n25/2026/NQ-HĐND.\n3. Chi phí làm căn cứ đề nghị hỗ trợ là chi phí hợp pháp, phục vụ trực tiếp cho nội dung \nđề nghị hỗ trợ.\n4. Không đề nghị, nhận hỗ trợ trùng lặp từ ngân sách nhà nước cho cùng một nội dung \nchi đối với cùng một đối tượng.\n5. Thực hiện nội dung được hỗ trợ, sử dụng kinh phí hỗ trợ đúng mục đích và cung cấp \nđầy đủ hồ sơ, tài liệu chứng minh kết quả thực hiện theo quy định.\nHà Nội, ngày … th",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5831
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p29_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 29,
+        "content": "g thực, chính xác và chịu trách nhiệm trước \npháp luật về nội dung kê khai.\n2. Nội dung và chi phí đề nghị hỗ trợ thuộc phạm vi hỗ trợ theo Nghị quyết số \n25/2026/NQ-HĐND và Quyết định của Ủy ban nhân dân thành phố Hà Nội.\n3. Chi phí kê khai làm căn cứ đề nghị hỗ trợ là chi phí hợp pháp, phục vụ trực tiếp \ncho nội dung đề nghị hỗ trợ.\n4. Không đề nghị, nhận hỗ trợ trùng lặp từ ngân sách nhà nước cho cùng một nội \ndung chi đối với cùng một đối tượng.\n5. Thực hiện nội dung được hỗ trợ và sử dụng k",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5787
+      }
+    ]
+  },
+  {
+    "question_id": "q12",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "ngoai_le",
+    "question": "Khi dự án gặp rủi ro khách quan dẫn đến không đạt kết quả, tổ chức cần gửi hồ sơ đề nghị áp dụng cơ chế chấp nhận rủi ro đến cơ quan nào?",
+    "filter_applied": null,
+    "gold_page": 11,
+    "evidence_quote": "áp dụng cơ chế chấp nhận rủi ro, kèm theo tài liệu chứng minh gửi Quỹ Phát triển khoa học, công nghệ và đổi mới sáng tạo Thành phố.",
+    "hit_1": true,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p11_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 11,
+        "content": "11\nĐiều 14. Xem xét áp dụng Cơ chế chấp nhận rủi ro\n1. Việc xem xét chấp nhận rủi ro trong thực hiện hỗ trợ được thực hiện theo quy \nđịnh tại điểm b khoản 3 Điều 4 và điểm b khoản 2 Điều 8 Nghị quyết số \n25/2026/NQ-HĐND.\n2. Trường hợp kết quả thực hiện hợp đồng hỗ trợ không đạt theo cam kết do rủi \nro khách quan hoặc nguyên nhân bất khả kháng, tổ chức được hỗ trợ có văn bản đề \nnghị áp dụng cơ chế chấp nhận rủi ro, kèm theo tài liệu chứng minh gửi Quỹ Phát \ntriển khoa học, công nghệ và đổi mới s",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.569
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p29_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 29,
+        "content": "i phí để làm căn cứ xác định mức hỗ trợ đề nghị;\n☐ Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn \n☐ Tài liệu chứng minh kết quả thực hiện nội dung xây dựng, vận hành hệ thống \ntiêu chuẩn, quy chuẩn kỹ thuật và quản lý chất lượng (nếu đã thực hiện);\n☐ Các tài liệu khác có liên quan.\nNơi nhận:\n- Như trên;\n- Lưu: …\nHà Nội, ngày … tháng … năm …\nNGƯỜI ĐỨNG ĐẦU CỦA TỔ CHỨC \n(Ký, ghi rõ họ tên và đóng dấu)",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5632
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p10_c005",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 10,
+        "content": "ủa cơ quan có thẩm quyền, Quỹ thông báo và tổ chức \nthực hiện việc dừng hỗ trợ, thu hồi kinh phí; theo dõi, đôn đốc tổ chức được hỗ trợ \nthực hiện nghĩa vụ hoàn trả.\n5. Trong thời hạn 90 ngày kể từ ngày nhận được quyết định về việc hoàn trả \nkinh phí của cơ quan có thẩm quyền, tổ chức được hỗ trợ có trách nhiệm hoàn trả \nkinh phí theo quy định. Trường hợp không thực hiện hoặc thực hiện không đầy đủ \nnghĩa vụ hoàn trả, Quỹ thực hiện hoặc đề nghị cơ quan có thẩm quyền thực hiện các \nbiện pháp xử l",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5446
+      }
+    ]
+  },
+  {
+    "question_id": "q13",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Nội dung hỗ trợ kết nối hệ sinh thái ĐMST với chuyên gia, nhà khoa học bao gồm hoạt động gì?",
+    "filter_applied": null,
+    "gold_page": 13,
+    "evidence_quote": "2. Nội dung hỗ trợ bao gồm:\na) Tư vấn, hướng dẫn doanh nghiệp và các tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số hoàn thiện hồ sơ theo quy định của pháp luật; hỗ trợ chuẩn bị tài liệu, minh chứng về quyền sở hữu hoặc quyền sử dụng hợp pháp đối với kết quả khoa học và công nghệ, công nghệ hoặc tài sản trí tuệ;",
+    "hit_1": false,
+    "hit_3": false,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p13_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 13,
+        "content": "\n1. Sở Khoa học và Công nghệ, Công ty Cổ phần Trung tâm đổi mới sáng tạo \nHà Nội có trách nhiệm hỗ trợ kết nối hệ sinh thái để tăng cường liên kết giữa cơ \nquan nhà nước, cơ sở giáo dục đại học, viện nghiên cứu, tổ chức khoa học và công \nnghệ, chuyên gia, nhà khoa học, doanh nghiệp, nhà đầu tư, tổ chức tài chính, quỹ \nđầu tư và các tổ chức thúc đẩy phát triển khoa học, công nghệ, đổi mới sáng tạo \nnhằm đẩy mạnh nghiên cứu, chuyển giao, ứng dụng và thương mại hóa tài sản trí tuệ.\n2. Nội dung hỗ t",
+        "metadata": {
+          "year": 2026,
+          "section": "doanh_nghiep_he_sinh_thai",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5962
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p13_c006",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 13,
+        "content": "i sáng tạo \nnhằm kết nối với quỹ đầu tư, nhà đầu tư, tổ chức hỗ trợ khởi nghiệp và các đối tác \nphát triển công nghệ.\nc) Hỗ trợ kết nối với các tổ chức, mạng lưới đổi mới sáng tạo trong nước và \nquốc tế; thúc đẩy hợp tác nghiên cứu, chuyển giao công nghệ, tiếp cận công nghệ \ntiên tiến và thu hút nguồn lực quốc tế phục vụ phát triển hệ sinh thái khoa học, \ncông nghệ, đổi mới sáng tạo và chuyển đổi số của Thành phố.\n3. Các hoạt động hỗ trợ được tổ chức thông qua chương trình, kế hoạch, đề \nán, nhi",
+        "metadata": {
+          "year": 2026,
+          "section": "doanh_nghiep_he_sinh_thai",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5937
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p13_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 13,
+        "content": "ng cường phối \nhợp giữa các cơ quan chuyên môn nhằm rút ngắn thời gian giải quyết hồ sơ theo \nquy định.\n3. Việc hỗ trợ được thực hiện theo nhu cầu của tổ chức và theo trình tự, thủ \ntục giải quyết thủ tục hành chính tương ứng được quy định tại pháp luật chuyên ngành.\nĐiều 19. Hỗ trợ kết nối hệ sinh thái, bao gồm kết nối với chuyên gia, nhà \nkhoa học, nhà đầu tư, tổ chức tài chính, quỹ đầu tư, viện nghiên cứu, trường \nđại học trong nước và quốc tế\n1. Sở Khoa học và Công nghệ, Công ty Cổ phần Trun",
+        "metadata": {
+          "year": 2026,
+          "section": "doanh_nghiep_he_sinh_thai",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5655
+      }
+    ]
+  },
+  {
+    "question_id": "q14",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Tổ chức được hưởng chính sách gì về gian hàng tại các sự kiện xúc tiến của Thành phố?",
+    "filter_applied": null,
+    "gold_page": 14,
+    "evidence_quote": "Được miễn phí gian hàng trưng bày sản phẩm khoa học và công nghệ tại các sự kiện",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p40_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 40,
+        "content": "điều kiện hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND và Quyết định \ncủa Ủy ban nhân dân Thành phố.\n3. Chi phí đề nghị hỗ trợ là chi phí gian hàng thực tế, hợp pháp và không đề nghị, \nnhận hỗ trợ trùng lặp từ ngân sách nhà nước cho cùng một nội dung chi.\n4. Tham gia triển lãm, hội chợ, sự kiện công nghệ quốc tế theo đúng nội dung đã đăng \nký; cung cấp đầy đủ báo cáo kết quả thực hiện, hóa đơn, chứng từ và các tài liệu có liên \nquan làm căn cứ giải ngân kinh phí hỗ trợ.\n5. Hoàn trả kinh phí hỗ trợ ",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5877
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p40_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 40,
+        "content": "ngân kinh phí hỗ trợ.\n5. Hoàn trả kinh phí hỗ trợ trong trường hợp thuộc diện phải thu hồi theo quy định của \nNghị quyết số 25/2026/NQ-HĐND, Quyết định của Ủy ban nhân dân thành phố Hà Nội.\nVI. HỒ SƠ GỬI KÈM\n☐ Tài liệu chứng minh việc đăng ký và được chấp thuận tham gia triển lãm, hội chợ, \nsự kiện công nghệ quốc tế theo chương trình xúc tiến của Thành phố.\n☐ Báo giá chi phí gian hàng của Ban tổ chức triển lãm, hội chợ, sự kiện công nghệ \nquốc tế.\n☐ Các tài liệu khác có liên quan (nếu có).\nHà Nộ",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5818
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p14_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 14,
+        "content": "14\nĐiều 20. Thực hiện hỗ trợ miễn phí gian hàng tại các sự kiện của Thành \nphố và miễn phí tham gia các khóa đào tạo\n1. Tổ chức thuộc đối tượng hỗ trợ theo Điều 11 Nghị quyết số 25/2026/NQ-HĐND:\na) Được miễn phí gian hàng trưng bày sản phẩm khoa học và công nghệ tại \ncác sự kiện khoa học và công nghệ do Thành phố tổ chức.\nb) Được miễn phí tham gia các khóa đào tạo, bồi dưỡng, tập huấn do Thành \nphố tổ chức nhằm nâng cao năng lực quản trị công nghệ, chuyển đổi số, thương \nmại hóa kết quả nghiên c",
+        "metadata": {
+          "year": 2026,
+          "section": "doanh_nghiep_he_sinh_thai",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5339
+      }
+    ]
+  },
+  {
+    "question_id": "q15",
+    "strategy": "Strategy_A",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trong Mẫu số 01, tổ chức đề nghị hỗ trợ phải cam kết thực hiện đúng những quy định nào?",
+    "filter_applied": null,
+    "gold_page": 19,
+    "evidence_quote": "Tổ chức đề nghị hỗ trợ cam kết: 1. Các thông tin trong hồ sơ là trung thực, chính xác và chịu trách nhiệm trước pháp luật về nội dung kê khai. 2. Thực hiện đúng các quy định của Nghị quyết số 25/2026/NQ-HĐND và Quyết định của Ủy ban nhân dân",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p26_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 26,
+        "content": "X. CAM KẾT\nTổ chức đề nghị hỗ trợ cam kết:\n1. Hồ sơ và các tài liệu gửi kèm là trung thực, chính xác và chịu trách nhiệm trước pháp luật.\n2. Dự án đáp ứng đầy đủ các điều kiện hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND.\n3. Bố trí đầy đủ nguồn vốn đối ứng theo cam kết.\n4. Sử dụng kinh phí hỗ trợ đúng mục đích, đúng đối tượng và đúng quy định.\n5. Thực hiện đầy đủ chế độ báo cáo, kiểm tra, giám sát, đánh giá và nghiệm thu.\n6. Duy trì hoạt động tối thiểu 05 năm kể từ khi kết thúc thời gian hỗ trợ.\n7.",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5998
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p19_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 19,
+        "content": "rợ (nếu có)\nVI. Cam kết\nTổ chức đề nghị hỗ trợ cam kết:\n1. Các thông tin trong hồ sơ là trung thực, chính xác và chịu trách nhiệm trước \npháp luật về nội dung kê khai.\n2. Thực hiện đúng các quy định của Nghị quyết số 25/2026/NQ-HĐND và Quyết \nđịnh của Ủy ban nhân dân Thành phố.\n3. Sử dụng kinh phí hỗ trợ đúng mục đích; thực hiện đầy đủ chế độ báo cáo, kiểm \ntra, giám sát và nghiệm thu theo quy định.\n4. Duy trì, vận hành, khai thác và chia sẻ hạ tầng theo thời gian cam kết; sử dụng \nkinh phí đúng",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5816
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p04_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 4,
+        "content": "theo Quyết \nđịnh này);\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành \nkèm theo Quyết định này);\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng \nminh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện \nnội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý \nchất lượng (nếu đã thực hiện);\nđ) Các tài liệu khác có liên quan (nếu có).\n4. Hồ sơ đề",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5798
+      }
+    ]
+  },
+  {
+    "question_id": "q16",
+    "strategy": "Strategy_A",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Doanh nghiệp vay vốn tại Quỹ Đầu tư phát triển Thành phố được hưởng chính sách ưu đãi lãi suất như thế nào?",
+    "filter_applied": null,
+    "gold_page": 14,
+    "evidence_quote": "lãi suất cho vay tối thiểu khi vay vốn tại Quỹ Đầu tư phát triển Thành phố để thực hiện các dự án đầu tư mới hạ tầng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số.",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p14_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 14,
+        "content": "oản vay và xử lý rủi ro được thực hiện theo quy định của pháp luật và \nquy chế hoạt động của Quỹ Đầu tư phát triển thành phố Hà Nội.\nĐiều 22. Trình tự, thủ tục hỗ trợ 100% chi phí gian hàng khi tham gia \nhội chợ, triển lãm công nghệ quốc tế theo chương trình xúc tiến của Thành phố\n1. Doanh nghiệp khoa học và công nghệ, doanh nghiệp công nghệ cao, doanh \nnghiệp công nghệ số, doanh nghiệp có sản phẩm khoa học và công nghệ (đáp ứng \nđiều kiện theo Điều 11 Nghị quyết số 25/2026/NQ-HĐND) có nhu cầu h",
+        "metadata": {
+          "year": 2026,
+          "section": "doanh_nghiep_he_sinh_thai",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5977
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p14_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 14,
+        "content": "ệ, chuyển đổi số, thương \nmại hóa kết quả nghiên cứu khoa học, tiêu chuẩn kỹ thuật, tiêu chuẩn chất lượng \nvà kỹ năng tham gia chuỗi giá trị, chuỗi cung ứng công nghệ. \n2. Việc đăng ký tham gia, lựa chọn đối tượng và tổ chức thực hiện được thực \nhiện theo kế hoạch, chương trình hoặc quy định của từng hoạt động do cơ quan \ncó thẩm quyền ban hành.\nĐiều 21. Ưu đãi hưởng lãi suất tối thiếu khi vay vốn tại Quỹ Đầu tư phát \ntriển Thành phố để thực hiện các dự án đầu tư mới hạ tầng khoa học, công \nnghệ",
+        "metadata": {
+          "year": 2026,
+          "section": "doanh_nghiep_he_sinh_thai",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5548
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p40_c003",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 40,
+        "content": "điều kiện hỗ trợ theo Nghị quyết số 25/2026/NQ-HĐND và Quyết định \ncủa Ủy ban nhân dân Thành phố.\n3. Chi phí đề nghị hỗ trợ là chi phí gian hàng thực tế, hợp pháp và không đề nghị, \nnhận hỗ trợ trùng lặp từ ngân sách nhà nước cho cùng một nội dung chi.\n4. Tham gia triển lãm, hội chợ, sự kiện công nghệ quốc tế theo đúng nội dung đã đăng \nký; cung cấp đầy đủ báo cáo kết quả thực hiện, hóa đơn, chứng từ và các tài liệu có liên \nquan làm căn cứ giải ngân kinh phí hỗ trợ.\n5. Hoàn trả kinh phí hỗ trợ ",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5409
+      }
+    ]
+  },
+  {
+    "question_id": "q17",
+    "strategy": "Strategy_A",
+    "split": "test",
+    "type": "ngoai_le",
+    "question": "Hồ sơ đề nghị hỗ trợ 100% chi phí gian hàng khi tham gia hội chợ, sự kiện công nghệ quốc tế gồm những tài liệu gì?",
+    "filter_applied": null,
+    "gold_page": 14,
+    "evidence_quote": "a) Đơn đề nghị hỗ trợ (theo Mẫu số 07 tại Phụ lục ban hành kèm theo Quyết định này); b) Tài liệu chứng minh việc đăng ký và được chấp thuận tham gia triển lãm, hội chợ, sự kiện công nghệ quốc tế theo chương trình xúc tiến của Thành phố; c) Báo giá chi phí gian hàng của Ban tổ chức",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p40_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 40,
+        "content": "ngân kinh phí hỗ trợ.\n5. Hoàn trả kinh phí hỗ trợ trong trường hợp thuộc diện phải thu hồi theo quy định của \nNghị quyết số 25/2026/NQ-HĐND, Quyết định của Ủy ban nhân dân thành phố Hà Nội.\nVI. HỒ SƠ GỬI KÈM\n☐ Tài liệu chứng minh việc đăng ký và được chấp thuận tham gia triển lãm, hội chợ, \nsự kiện công nghệ quốc tế theo chương trình xúc tiến của Thành phố.\n☐ Báo giá chi phí gian hàng của Ban tổ chức triển lãm, hội chợ, sự kiện công nghệ \nquốc tế.\n☐ Các tài liệu khác có liên quan (nếu có).\nHà Nộ",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.6189
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p14_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 14,
+        "content": "oản vay và xử lý rủi ro được thực hiện theo quy định của pháp luật và \nquy chế hoạt động của Quỹ Đầu tư phát triển thành phố Hà Nội.\nĐiều 22. Trình tự, thủ tục hỗ trợ 100% chi phí gian hàng khi tham gia \nhội chợ, triển lãm công nghệ quốc tế theo chương trình xúc tiến của Thành phố\n1. Doanh nghiệp khoa học và công nghệ, doanh nghiệp công nghệ cao, doanh \nnghiệp công nghệ số, doanh nghiệp có sản phẩm khoa học và công nghệ (đáp ứng \nđiều kiện theo Điều 11 Nghị quyết số 25/2026/NQ-HĐND) có nhu cầu h",
+        "metadata": {
+          "year": 2026,
+          "section": "doanh_nghiep_he_sinh_thai",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5967
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p14_c005",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 14,
+        "content": "iều 11 Nghị quyết số 25/2026/NQ-HĐND) có nhu cầu hỗ trợ gửi \n01 bộ hồ sơ đến Quỹ, gồm:\na) Đơn đề nghị hỗ trợ (theo Mẫu số 07 tại Phụ lục ban hành kèm theo Quyết \nđịnh này);\nb) Tài liệu chứng minh việc đăng ký và được chấp thuận tham gia triển lãm, \nhội chợ, sự kiện công nghệ quốc tế theo chương trình xúc tiến của Thành phố;\nc) Báo giá chi phí gian hàng của Ban tổ chức (triển lãm, hội chợ, sự kiện \ncông nghệ quốc tế).\n2. Trong thời hạn 05 ngày làm việc kể từ ngày nhận hồ sơ, Quỹ kiểm tra tính \nđầ",
+        "metadata": {
+          "year": 2026,
+          "section": "doanh_nghiep_he_sinh_thai",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5737
+      }
+    ]
+  },
+  {
+    "question_id": "q18",
+    "strategy": "Strategy_A",
+    "split": "test",
+    "type": "tham_quyen",
+    "question": "Sở Khoa học và Công nghệ có trách nhiệm và vai trò gì trong việc triển khai Quyết định này?",
+    "filter_applied": null,
+    "gold_page": 15,
+    "evidence_quote": "1. Là cơ quan đầu mối tham mưu Ủy ban nhân dân Thành phố tổ chức triển khai thực hiện Nghị quyết số 25/2026/NQ-HĐND và Quyết định này; chủ trì hướng dẫn, tuyên truyền, phổ biến, theo dõi, đôn đốc và phối hợp với các cơ quan, đơn vị liên quan tổ chức thực hiện các chính sách hỗ trợ theo quy định.",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p02_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 2,
+        "content": " tự, thủ tục thực hiện các nội dung hỗ trợ phát triển hạ tầng khoa học, \ncông nghệ, đổi mới sáng tạo và chuyển đổi số theo Điều 6 Nghị quyết số \n25/2026/NQ-HĐND.\n2. Quy định chi tiết chính sách ưu đãi, hỗ trợ đối với tổ chức có hoạt động trong \nlĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số theo Điều 10 Nghị \nquyết số 25/2026/NQ-HĐND.\n3. Trình tự, thủ tục thẩm định, kiểm tra, giám sát, đánh giá, nghiệm thu, thu hồi \nkinh phí hỗ trợ, xem xét chấp nhận rủi ro và các nội dung khác ",
+        "metadata": {
+          "year": 2026,
+          "section": "quy_dinh_chung",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6145
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p15_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 15,
+        "content": "15\nChương IV\nTỔ CHỨC THỰC HIỆN\nĐiều 23. Trách nhiệm của Sở Khoa học và Công nghệ\n1. Là cơ quan đầu mối tham mưu Ủy ban nhân dân Thành phố tổ chức triển \nkhai thực hiện Nghị quyết số 25/2026/NQ-HĐND và Quyết định này; chủ trì \nhướng dẫn, tuyên truyền, phổ biến, theo dõi, đôn đốc và phối hợp với các cơ quan, \nđơn vị liên quan tổ chức thực hiện các chính sách hỗ trợ theo quy định.\n2. Ban hành và hướng dẫn sử dụng hệ thống biểu mẫu theo quy định tại Điều \n5 Quyết định này trong thời hạn 30 ngày kể t",
+        "metadata": {
+          "year": 2026,
+          "section": "to_chuc_thuc_hien",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.6065
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p16_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 16,
+        "content": ". Trách nhiệm của các cơ quan liên quan\nCác sở, ban, ngành, đơn vị thuộc Thành phố và các cơ quan, tổ chức có liên \nquan có trách nhiệm phối hợp với Sở Khoa học và Công nghệ trong quá trình tổ \nchức thực hiện, kiểm tra, giám sát và đánh giá hiệu quả thực hiện các chính sách \nhỗ trợ theo Nghị quyết và Quyết định này.\nĐiều 27. Hiệu lực thi hành\nQuyết định này có hiệu lực thi hành kể từ ngày tháng năm 2026. \nĐiều 28. Quy định chuyển tiếp\nTrong thời gian Quỹ chưa được thành lập và chưa được cấp kinh",
+        "metadata": {
+          "year": 2026,
+          "section": "to_chuc_thuc_hien",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5895
+      }
+    ]
+  },
+  {
+    "question_id": "q19",
+    "strategy": "Strategy_A",
+    "split": "test",
+    "type": "chuyen_tiep",
+    "question": "Trách nhiệm của các sở, ban, ngành, cơ quan liên quan được quy định tại Điều nào trong Quyết định?",
+    "filter_applied": null,
+    "gold_page": 16,
+    "evidence_quote": "Điều 26. Trách nhiệm của các cơ quan liên quan Các sở, ban, ngành, đơn vị thuộc Thành phố và các cơ quan, tổ chức có liên quan có trách nhiệm phối hợp với Sở Khoa học và Công nghệ",
+    "hit_1": true,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p16_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 16,
+        "content": ". Trách nhiệm của các cơ quan liên quan\nCác sở, ban, ngành, đơn vị thuộc Thành phố và các cơ quan, tổ chức có liên \nquan có trách nhiệm phối hợp với Sở Khoa học và Công nghệ trong quá trình tổ \nchức thực hiện, kiểm tra, giám sát và đánh giá hiệu quả thực hiện các chính sách \nhỗ trợ theo Nghị quyết và Quyết định này.\nĐiều 27. Hiệu lực thi hành\nQuyết định này có hiệu lực thi hành kể từ ngày tháng năm 2026. \nĐiều 28. Quy định chuyển tiếp\nTrong thời gian Quỹ chưa được thành lập và chưa được cấp kinh",
+        "metadata": {
+          "year": 2026,
+          "section": "to_chuc_thuc_hien",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5971
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p16_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 16,
+        "content": "16\ncam kết về chia sẻ, sử dụng chung hạ tầng và duy trì kết quả hỗ trợ theo quy định.\n4. Thực hiện chế độ báo cáo định kỳ theo hợp đồng hỗ trợ, theo quy định tại \nQuyết định này và đột xuất theo yêu cầu của cơ quan có thẩm quyền.\n5. Thực hiện việc hoàn trả kinh phí hỗ trợ trong các trường hợp phải thu hồi \ntheo quy định của Nghị quyết, Quyết định này và quy định của pháp luật.\n6. Thực hiện các trách nhiệm khác theo quy định của pháp luật.\nĐiều 26. Trách nhiệm của các cơ quan liên quan\nCác sở, ba",
+        "metadata": {
+          "year": 2026,
+          "section": "to_chuc_thuc_hien",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5791
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p16_c004",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 16,
+        "content": "h Ủy ban nhân \ndân các xã, phường và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành \nQuyết định này./. \n Nơi nhận:\n- Như Điều 29;\n- Thường trực Thành ủy;\n- Thường trực HĐND Thành phố;\n- Bộ Khoa học và Công nghệ;\n- Uỷ ban MTTQVN thành phố Hà Nội;\n- Chủ tịch UBND Thành phố;\n- Các Phó Chủ tịch UBND Thành phố;\n- Cục KTVB và TCTHPL - Bộ Tư pháp;\n- Cổng TTĐT Chính phủ;\n- Văn phòng Thành ủy;\n- Các Sở, Ban, ngành Thành phố;\n- UBND các xã, phường; \n- VPUB: CVP, các PCVP, \n các phòng, ban, đơ",
+        "metadata": {
+          "year": 2026,
+          "section": "to_chuc_thuc_hien",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5681
+      }
+    ]
+  },
+  {
+    "question_id": "q20",
+    "strategy": "Strategy_A",
+    "split": "test",
+    "type": "bieu_mau",
+    "question": "Trong Mẫu số 02 (Thuyết minh đề xuất hỗ trợ), mục Giải pháp kỹ thuật, công nghệ bao gồm những nội dung gì?",
+    "filter_applied": null,
+    "gold_page": 23,
+    "evidence_quote": "Giải pháp kỹ thuật, công nghệ - Công nghệ, thiết bị, giải pháp kỹ thuật dự kiến áp dụng; - Mức độ tiên tiến, đồng bộ; - Khả năng kết nối, tích hợp và mở rộng; - Yêu cầu về an toàn, an ninh, bảo mật dữ liệu (nếu có);",
+    "hit_1": false,
+    "hit_3": true,
+    "top_chunks": [
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p04_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 4,
+        "content": "theo Quyết \nđịnh này);\nb) Thuyết minh nội dung đề nghị hỗ trợ (theo Mẫu số 04 tại Phụ lục ban hành \nkèm theo Quyết định này);\nc) Hợp đồng, báo giá, hóa đơn, chứng từ hoặc tài liệu hợp pháp khác chứng \nminh chi phí để làm căn cứ xác định mức hỗ trợ đề nghị;\nd) Tài liệu chứng minh kết quả kiểm định, hiệu chuẩn hoặc kết quả thực hiện \nnội dung xây dựng, vận hành hệ thống tiêu chuẩn, quy chuẩn kỹ thuật và quản lý \nchất lượng (nếu đã thực hiện);\nđ) Các tài liệu khác có liên quan (nếu có).\n4. Hồ sơ đề",
+        "metadata": {
+          "year": 2026,
+          "section": "ha_tang_khcn",
+          "authority": "ubnd_hanoi",
+          "document_type": "quy_dinh"
+        },
+        "score": 0.5656
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p23_c001",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 23,
+        "content": "23\n- Các thông số kỹ thuật chủ yếu khác.\n4. Giải pháp kỹ thuật, công nghệ\n- Công nghệ, thiết bị, giải pháp kỹ thuật dự kiến áp dụng;\n- Mức độ tiên tiến, đồng bộ;\n- Khả năng kết nối, tích hợp và mở rộng;\n- Yêu cầu về an toàn, an ninh, bảo mật dữ liệu (nếu có);\n- Khả năng duy trì, bảo trì, nâng cấp trong quá trình khai thác.\n5. Tiến độ thực hiện\nNội dung Thời gian\nGiai đoạn chuẩn bị\nGiai đoạn thực hiện dự án\nGiai đoạn nghiệm thu, bàn giao đưa vào sử dụng\nGiai đoạn vận hành, khai thác và đánh giá h",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5351
+      },
+      {
+        "chunk_id": "strat_a_quy-dinh-ha-tang-khcn-hanoi-2026_p18_c002",
+        "document_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+        "source": "Hanoi_Decision_2026_HN_ND",
+        "page": 18,
+        "content": "đề nghị hỗ trợ: ...................................................................................\n3. Địa điểm triển khai: ..............................................................................................\n4. Loại hạ tầng đề nghị hỗ trợ\n☐ Hạ tầng khoa học và công nghệ\n☐ Hạ tầng đổi mới sáng tạo\n☐ Hạ tầng số\n5. Lĩnh vực/công nghệ của dự án:\n☐ Thuộc danh mục lĩnh vực trọng điểm về khoa học và công nghệ của Thủ đô.\n☐ Thuộc danh mục công nghệ chiến lược ưu tiên do Ủy ban nhân dân Thành ",
+        "metadata": {
+          "year": 2026,
+          "section": "bieu_mau_ho_so",
+          "authority": "ubnd_hanoi",
+          "document_type": "bieu_mau"
+        },
+        "score": 0.5334
+      }
+    ]
+  }
+]

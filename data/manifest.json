@@ -1,0 +1,47 @@
+{
+  "source_id": "quy-dinh-ha-tang-khcn-hanoi-2026",
+  "title": "Quy định trình tự, thủ tục hỗ trợ phát triển hạ tầng và tổ chức có hoạt động trong lĩnh vực khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số trên địa bàn thành phố Hà Nội",
+  "source_path_or_url": "starter/data/quy_dinh_ha_tang_khcn_hanoi_2026.pdf",
+  "authority": "Ủy ban nhân dân thành phố Hà Nội",
+  "legal_basis": "Nghị quyết số 25/2026/NQ-HĐND ngày 02 tháng 6 năm 2026 của Hội đồng nhân dân thành phố Hà Nội",
+  "license_or_permission": "Văn bản quy phạm pháp luật công khai của cơ quan nhà nước theo Luật Sở hữu trí tuệ Việt Nam (Public Domain)",
+  "accessed_at": "2026-11-13",
+  "physical_pages_total": 40,
+  "content_pages_count": 40,
+  "excluded_pages": [],
+  "exclusion_reason": "Toàn bộ 40 trang đều chứa nội dung pháp lý và biểu mẫu quy định có thể trích xuất phục vụ truy xuất.",
+  "content_page_ids": [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+    21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+    31, 32, 33, 34, 35, 36, 37, 38, 39, 40
+  ],
+  "total_characters_normalized": 82921,
+  "sections": [
+    {
+      "section_id": "quy_dinh_chung",
+      "pages": [1, 2],
+      "description": "Quyết định ban hành và Chương I: Phạm vi điều chỉnh, đối tượng áp dụng, nguyên tắc ưu đãi hỗ trợ (Điều 1 - Điều 5)"
+    },
+    {
+      "section_id": "ha_tang_khcn",
+      "pages": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "description": "Chương II: Trình tự, thủ tục hỗ trợ phát triển hạ tầng KHCN, phòng thí nghiệm, nghiệm thu, thu hồi kinh phí, cơ chế chấp nhận rủi ro (Điều 6 - Điều 16)"
+    },
+    {
+      "section_id": "doanh_nghiep_he_sinh_thai",
+      "pages": [12, 13, 14, 15],
+      "description": "Chương III: Trình tự, thủ tục hỗ trợ tổ chức, doanh nghiệp, kết nối chuyên gia, miễn phí gian hàng sự kiện, ưu đãi lãi suất vay (Điều 17 - Điều 22)"
+    },
+    {
+      "section_id": "to_chuc_thuc_hien",
+      "pages": [15, 16],
+      "description": "Chương IV: Trách nhiệm của các cơ quan Sở KH&CN, Quỹ phát triển KH&CN, hiệu lực và quy định chuyển tiếp (Điều 23 - Điều 28)"
+    },
+    {
+      "section_id": "bieu_mau_ho_so",
+      "pages": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "description": "Hệ thống Mẫu số 01 đến Mẫu số 07: Đơn đề nghị hỗ trợ, bản thuyết minh nhiệm vụ, thỏa thuận cam kết"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "Quy_dinh_ha_tang_khcn_hanoi_2026.pdf",
+  "total_pages": 40,
+  "embedding_model": "openai/text-embedding-3-small",
+  "results": {
+    "Strategy_A": {
+      "strategy": "Strategy_A",
+      "dev_hit1_str": "5/15",
+      "dev_hit3_str": "12/15",
+      "test_hit1_str": "1/5",
+      "test_hit3_str": "5/5",
+      "dev_hit1_pct": 33.33,
+      "dev_hit3_pct": 80.0,
+      "test_hit1_pct": 20.0,
+      "test_hit3_pct": 100.0
+    },
+    "Strategy_B": {
+      "strategy": "Strategy_B",
+      "dev_hit1_str": "11/15",
+      "dev_hit3_str": "12/15",
+      "test_hit1_str": "2/5",
+      "test_hit3_str": "4/5",
+      "dev_hit1_pct": 73.33,
+      "dev_hit3_pct": 80.0,
+      "test_hit1_pct": 40.0,
+      "test_hit3_pct": 80.0
+    },
+    "Strategy_C": {
+      "strategy": "Strategy_C",
+      "dev_hit1_str": "11/15",
+      "dev_hit3_str": "12/15",
+      "test_hit1_str": "2/5",
+      "test_hit3_str": "4/5",
+      "dev_hit1_pct": 73.33,
+      "dev_hit3_pct": 80.0,
+      "test_hit1_pct": 40.0,
+      "test_hit3_pct": 80.0
+    }
+  },
+  "timings_sec": {
+    "ingest_load": 1.273,
+    "embed_strategy_a": 21.76,
+    "embed_strategy_b": 4.62
+  }
+}
