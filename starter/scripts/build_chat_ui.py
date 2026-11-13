@@ -684,9 +684,20 @@ html_content = """<!DOCTYPE html>
         if (rawText.includes(cleanQuote)) {
           rawText = rawText.replace(cleanQuote, `<mark id="active-highlight" class="citation-mark">${cleanQuote}</mark>`);
         } else {
-          const sub = cleanQuote.slice(0, 40);
-          if (sub.length > 10 && rawText.includes(sub)) {
-            rawText = rawText.replace(sub, `<mark id="active-highlight" class="citation-mark">${sub}</mark>`);
+          const clauses = cleanQuote.split('.').map(s => s.trim()).filter(s => s.length >= 15);
+          let highlighted = false;
+          for (const c of clauses) {
+            if (rawText.includes(c)) {
+              rawText = rawText.replace(c, `<mark id="active-highlight" class="citation-mark">${c}</mark>`);
+              highlighted = true;
+              break;
+            }
+          }
+          if (!highlighted) {
+            const shortSub = cleanQuote.slice(0, 35).trim();
+            if (shortSub.length >= 10 && rawText.includes(shortSub)) {
+              rawText = rawText.replace(shortSub, `<mark id="active-highlight" class="citation-mark">${shortSub}</mark>`);
+            }
           }
         }
       }
@@ -708,11 +719,17 @@ html_content = """<!DOCTYPE html>
 
       const toast = document.getElementById('citation-toast');
       const toastText = document.getElementById('citation-toast-text');
-      toastText.textContent = `Đang soi Trang ${pageNum}: "${label || quote.slice(0, 50)}..."`;
+      toastText.textContent = `Đang soi Trang ${pageNum}: "${label || (quote ? quote.slice(0, 50) : '')}..."`;
       toast.classList.remove('hidden');
       setTimeout(() => {
         toast.classList.add('hidden');
       }, 5000);
+    }
+
+    function viewCitationByQid(qid) {
+      const q = DATA.questions.find(x => x.id === qid);
+      if (!q) return;
+      viewCitation(q.gold_page, q.evidence_quote, `Trang ${q.gold_page}`);
     }
 
     function askQuestion(qid) {
@@ -775,8 +792,6 @@ html_content = """<!DOCTYPE html>
       const msg = document.createElement('div');
       msg.className = "flex items-start space-x-3";
 
-      const quoteClean = q.evidence_quote.replace(/"/g, '&quot;');
-
       msg.innerHTML = `
         <div class="w-8 h-8 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 flex items-center justify-center shrink-0 text-xs font-bold shadow-xs">
           AI
@@ -789,7 +804,7 @@ html_content = """<!DOCTYPE html>
 
           <!-- Citation Button: Clickable to jump & highlight -->
           <div class="pt-1">
-            <button onclick="viewCitation(${q.gold_page}, '${quoteClean}', 'Trang ${q.gold_page}')" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-amber-100 hover:bg-amber-200 border border-amber-300 text-amber-900 font-semibold text-xs shadow-xs transition-all group">
+            <button onclick="viewCitationByQid('${q.id}')" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-amber-100 hover:bg-amber-200 border border-amber-300 text-amber-900 font-semibold text-xs shadow-xs transition-all group">
               <svg class="w-4 h-4 text-amber-700 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
               <span>Xem Trích Dẫn: <strong>Trang ${q.gold_page}</strong></span>
               <span class="text-amber-700/80 font-mono text-[10px]">↗ (Bấm để highlight)</span>
@@ -843,7 +858,7 @@ html_content = """<!DOCTYPE html>
         </div>
         <div class="bg-white border border-slate-200 rounded-2xl rounded-tl-none p-4 max-w-xl text-xs sm:text-sm text-slate-800 space-y-2 shadow-xs">
           <p>Đã tiếp nhận câu hỏi: <strong>"${escapeHtml(query)}"</strong>.</p>
-          <p class="text-slate-600">Đang tra cứu trên bảng vector `strategy_b_chunks`. Hãy bấm vào các câu hỏi gợi ý bên dưới để xem trích dẫn và highlight nguyên văn!</p>
+          <p class="text-slate-600">Đang tra cứu trên bảng vector 'strategy_b_chunks'. Hãy bấm vào các câu hỏi gợi ý bên dưới để xem trích dẫn và highlight nguyên văn!</p>
         </div>
       `;
       container.appendChild(msg);
@@ -881,8 +896,6 @@ html_content = """<!DOCTYPE html>
           return '<span class="px-2 py-0.5 rounded bg-rose-100 text-rose-800 font-bold font-mono text-[10px]">Trượt</span>';
         };
 
-        const quoteClean = q.evidence_quote.replace(/"/g, '&quot;');
-
         html += `
           <tr class="hover:bg-slate-50 transition-colors">
             <td class="p-3 font-mono font-bold text-indigo-700">${q.id.toUpperCase()}</td>
@@ -894,7 +907,7 @@ html_content = """<!DOCTYPE html>
             <td class="p-3">${fmtBadge(trB)}</td>
             <td class="p-3">${fmtBadge(trC)}</td>
             <td class="p-3 text-right">
-              <button onclick="switchMainTab('chat'); viewCitation(${q.gold_page}, '${quoteClean}', 'Trang ${q.gold_page}');" class="px-2.5 py-1 rounded bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300 font-semibold text-[11px] shadow-2xs transition-all">
+              <button onclick="switchMainTab('chat'); viewCitationByQid('${q.id}');" class="px-2.5 py-1 rounded bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300 font-semibold text-[11px] shadow-2xs transition-all">
                 Soi Văn Bản ↗
               </button>
             </td>
